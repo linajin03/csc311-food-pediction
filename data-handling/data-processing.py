@@ -1,8 +1,4 @@
-import sys
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -12,7 +8,7 @@ path = os.path.realpath(__file__)
 dir = os.path.dirname(path)
 dir = dir.replace('data-handling', 'data')
 os.chdir(dir)
-df = pd.read_csv("cleaned_data.csv")
+df = pd.read_csv("multi_hot_encoded_df.csv")
 
 # Display basic information
 print(df.info())
