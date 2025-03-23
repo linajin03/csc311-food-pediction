@@ -19,7 +19,11 @@ import random
 
 # numpy and pandas are also permitted
 import numpy
-import pandas
+import pandas as pd
+import re
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 def predict(x):
     """
@@ -43,6 +47,14 @@ def predict_all(filename):
     # (e.g. you may use numpy, pandas, etc)
     data = csv.DictReader(open(filename))
 
+    data = pd.read_csv("data/cleaned_data_combined_modified.csv")
+
+    # Clean Q2
+    data['Q2_cleaned'] = data['Q2: How many ingredients would you expect this food item to contain?'].apply(clean_Q2)
+
+    # Convert cleaned to numeric
+    data['Q2_cleaned'] = pd.to_numeric(data['Q2_cleaned'], errors='coerce')
+
     predictions = []
     for test_example in data:
         # obtain a prediction for this test example
@@ -50,3 +62,88 @@ def predict_all(filename):
         predictions.append(pred)
 
     return predictions
+
+def clean_Q2(q2):
+    """
+    Clean column Q2 in csv file, converting to all numerical discrete values.
+    Handles:
+    - Numerical values (e.g., "5")
+    - Ranges (e.g., "4-6")
+    - Textual descriptions (e.g., "around 3")
+    - Spelled-out numbers (e.g., "three")
+    - Ingredient lists (e.g., "bread, meat, cheese")
+    - Multi-line ingredient lists (e.g., "I would expect it to contain:\n* Bread\n* Cheese")
+    - #NAME? and other non-numeric values
+    """
+    # Handle NaN values
+    if pd.isna(q2):
+        return pd.NA
+    
+    # Convert to string if not already
+    q2 = str(q2).strip()
+    
+    # Handle "I don't know" or similar cases
+    if '#NAME?' in q2 or 'don\'t know' in q2.lower() or 'dont know' in q2.lower() or 'no idea' in q2.lower():
+        print(f"Skipping Q2 value: {q2}")
+        return pd.NA
+    
+    # Handle ranges like "4-6" or "5 to 7"
+    range_match = re.search(r'(\d+)\s*[-~to]+\s*(\d+)', q2)
+    if range_match:
+        low = int(range_match.group(1))
+        high = int(range_match.group(2))
+        return (low + high) // 2  # Return the floored average
+    
+    # Handle single numbers
+    single_number_match = re.search(r'\d+', q2)
+    if single_number_match:
+        return int(single_number_match.group(0))
+    
+    # Handle textual descriptions like "around 5" or "about 3"
+    textual_match = re.search(r'(around|about|approximately|~)\s*(\d+)', q2, re.IGNORECASE)
+    if textual_match:
+        return int(textual_match.group(2))
+    
+    # Handle cases where the number is spelled out (e.g., "three")
+    spelled_out_numbers = {
+        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10
+    }
+    for word, num in spelled_out_numbers.items():
+        if word in q2.lower():
+            return num
+    
+    # Handle ingredient lists
+    # Check if the text looks like a list of ingredients (may be an issue for those who answered in sentences)
+    if ',' in q2 or '\n' in q2 or ' and ' in q2.lower():
+        lines = q2.split('\n')
+        ingredients = []
+        for line in lines:
+            line = re.sub(r'[*\-•]', '', line).strip()
+            if line:
+                parts = re.split(r'[,&]| and ', line)
+                ingredients.extend([part.strip() for part in parts if part.strip()])
+        unique_ingredients = set(ingredients)
+        return len(unique_ingredients)
+    
+    # If no number or ingredients are found, return 'n/a'
+    print(f"Could not parse Q2 value: {q2}")
+    return pd.NA
+
+
+# For testing
+if __name__ == "__main__":
+    df = pd.read_csv('data/cleaned_data_combined_modified.csv')
+    df['Q2_cleaned'] = df['Q2: How many ingredients would you expect this food item to contain?'].apply(clean_Q2)
+
+    # Convert cleaned to numeric
+    df['Q2_cleaned'] = pd.to_numeric(df['Q2_cleaned'], errors='coerce')
+
+    # Check for missing values
+    print("Missing values in Q2 column:", df['Q2_cleaned'].isna().sum())
+
+    # Create the boxplot
+    # sns.boxplot(x=df['Q2_cleaned'])
+    # plt.title('Boxplot of Expected Ingredients')
+    # plt.xlabel('Number of Ingredients')
+    # plt.show()  d
