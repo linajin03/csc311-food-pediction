@@ -10,6 +10,26 @@ Here's an example of how your script may be used in our test file:
 
     from example_pred import predict_all
     predict_all("example_test_set.csv")
+
+
+## Data description: 
+Q1: From a scale 1 to 5, how complex is it to make this food? (Where 1 is the most simple, and 5 is the most complex)
+
+Q2: How many ingredients would you expect this food item to contain?
+
+Q3: In what setting would you expect this food to be served? Please check all that apply
+
+Q4: How much would you expect to pay for one serving of this food item?
+
+Q5: What movie do you think of when thinking of this food item?
+
+Q6: What drink would you pair with this food item?
+
+Q7: When you think about this food item, who does it remind you of?
+
+Q8: How much hot sauce would you add to this food item?
+
+Label
 """
 
 # basic python imports are permitted
@@ -20,9 +40,6 @@ import random
 # numpy and pandas are also permitted
 import numpy
 import pandas as pd
-import re
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 
 def predict(x):
@@ -141,9 +158,3 @@ if __name__ == "__main__":
 
     # Check for missing values
     print("Missing values in Q2 column:", df['Q2_cleaned'].isna().sum())
-
-    # Create the boxplot
-    # sns.boxplot(x=df['Q2_cleaned'])
-    # plt.title('Boxplot of Expected Ingredients')
-    # plt.xlabel('Number of Ingredients')
-    # plt.show()  d

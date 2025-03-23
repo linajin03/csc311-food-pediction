@@ -1,4 +1,4 @@
-id,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Label
+id,"Q1: From a scale 1 to 5, how complex is it to make this food? (Where 1 is the most simple, and 5 is the most complex)",Q2: How many ingredients would you expect this food item to contain?,Q3: In what setting would you expect this food to be served? Please check all that apply,Q4: How much would you expect to pay for one serving of this food item?,Q5: What movie do you think of when thinking of this food item?,Q6: What drink would you pair with this food item?,"Q7: When you think about this food item, who does it remind you of?",Q8: How much hot sauce would you add to this food item?,Label
 716549,3,6,"Week day lunch,At a party,Late night snack",$5,Cloudy With A Chance Of Meatballs,soda,Friends,A little (mild),Pizza
 715742,4,2,"Week day lunch,At a party,Late night snack",$5,None,soda,"Friends,Teachers,Strangers",None,Pizza
 727333,3,5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",$10,Action Movie,soda,Friends,A moderate amount (medium),Pizza
