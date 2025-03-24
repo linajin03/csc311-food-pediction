@@ -1,98 +1,86 @@
-import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay, roc_auc_score, roc_curve
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
+from sklearn.metrics import classification_report, f1_score, accuracy_score
 
-# === Load data ===
-def load_data(path):
-    df = pd.read_csv(path)
-    X = df.drop(columns=["Label", "Q5_original"])
-    y = df["Label"]
-    return train_test_split(X, y, test_size=0.2, random_state=42)
+# === Naive Bayes ===
 
-# === Evaluation ===
-def evaluate_model(name, model, X_test, y_test):
+def evaluate_naive_bayes():
+    import csv
+    from models.naive_bayes_model import make_bow, naive_bayes_map, make_prediction
+    with open("data/worded_data.csv") as f:
+        data_list = list(csv.reader(f))[1:]
+    np.random.seed(42)
+    np.random.shuffle(data_list)
+
+    # Build vocab
+    vocab_set = set()
+    for row in data_list:
+        words = [word for sublist in row[1:9] for word in sublist.split(",")]
+        vocab_set.update(words)
+    vocab = list(vocab_set)
+
+    # Make BoW
+    X_train, t_train = make_bow(data_list[:820], vocab)
+    X_test, t_test = make_bow(data_list[820:], vocab)
+
+    # Train and predict
+    pi0, pi1, pi2, theta = naive_bayes_map(X_train, t_train)
+    y_pred = make_prediction(X_test, pi0, pi1, pi2, theta)
+
+    print("\n=== Naive Bayes ===")
+    print(classification_report(t_test, y_pred, digits=3))
+    return "Naive Bayes", accuracy_score(t_test, y_pred), f1_score(t_test, y_pred, average="macro")
+
+# === Decision Tree ===
+def evaluate_decision_tree():
+    from models.decisiontrees import data_fets
+    from sklearn.model_selection import train_test_split
+    from sklearn.tree import DecisionTreeClassifier
+
+    X = data_fets[:, :-1]
+    y = data_fets[:, -1]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    model = DecisionTreeClassifier(criterion="entropy", max_depth=10)
+    model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    print(f"\n===== {name} =====")
+
+    print("\n=== Decision Tree ===")
     print(classification_report(y_test, y_pred, digits=3))
+    return "Decision Tree", accuracy_score(y_test, y_pred), f1_score(y_test, y_pred, average="macro")
 
-    cm = confusion_matrix(y_test, y_pred)
-    disp = ConfusionMatrixDisplay(cm)
-    disp.plot()
-    plt.title(f"{name} - Confusion Matrix")
-    plt.savefig(f"../plots/cm_{name.lower().replace(' ', '_')}.png", bbox_inches="tight")
-    plt.close()
+# === Neural Network ===
 
-    return y_pred
 
-# === ROC plot (for binary case only) ===
-def plot_roc_curves(models, X_test, y_test, label_names):
-    if len(np.unique(y_test)) > 2:
-        print("Skipping ROC curve (not binary classification).")
-        return
+def evaluate_neural_network():
+    from models.neuralnetwork import FoodNeuralNetwork, train_sgd, train_test_split
+    import pandas as pd
 
-    plt.figure(figsize=(8, 6))
-    for name, model in models.items():
-        y_score = model.predict_proba(X_test)[:, 1]
-        fpr, tpr, _ = roc_curve(y_test, y_score)
-        auc = roc_auc_score(y_test, y_score)
-        plt.plot(fpr, tpr, label=f"{name} (AUC={auc:.2f})")
+    df = pd.read_csv("data/final_processed.csv")
+    X = df.drop(columns=["Label"]).values.astype(int)
+    y = df["Label"].astype(int).values
 
-    plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
-    plt.xlabel("False Positive Rate")
-    plt.ylabel("True Positive Rate")
-    plt.title("ROC Curve (Binary Only)")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig("../plots/roc_curves.png", bbox_inches="tight")
-    plt.close()
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
 
-# === Main ===
+    model = FoodNeuralNetwork(num_features=X.shape[1], num_hidden=100, num_classes=3)
+    train_sgd(model, X_train, y_train, alpha=0.1, n_epochs=200, batch_size=128, X_valid=X_test, t_valid=y_test, plot=False)
+
+    y_pred = model.forward(X_test).argmax(axis=1)
+
+    print("\n=== Neural Network ===")
+    print(classification_report(y_test, y_pred, digits=3))
+    return "Neural Network", accuracy_score(y_test, y_pred), f1_score(y_test, y_pred, average="macro")
+
+# === Run All Models ===
 if __name__ == "__main__":
-    X_train, X_test, y_train, y_test = load_data("../data/final_processed.csv")
+    results = [
+        evaluate_naive_bayes(),
+        evaluate_decision_tree(),
+        evaluate_neural_network()
+    ]
 
-    # Optional: detect class names
-    label_names = sorted(y_train.unique())
+    print("\n=== Model Comparison ===")
+    print("{:<20} {:<10} {:<10}".format("Model", "Accuracy", "F1 (macro)"))
+    for name, acc, f1 in sorted(results, key=lambda x: x[2], reverse=True):
+        print(f"{name:<20} {acc:<10.3f} {f1:<10.3f}")
 
-    # Fit models
-    models = {
-        "Naive Bayes": GaussianNB(),
-        "Logistic Regression": LogisticRegression(max_iter=1000),
-        "Decision Tree": DecisionTreeClassifier(max_depth=10, random_state=0)
-    }
-
-    predictions = {}
-
-    for name, model in models.items():
-        model.fit(X_train, y_train)
-        predictions[name] = evaluate_model(name, model, X_test, y_test)
-
-    # Optional ROC/AUC
-    plot_roc_curves(models, X_test, y_test, label_names)
-
-    from sklearn.metrics import accuracy_score, f1_score
-
-    # === Compare all models numerically
-    print("\n===== MODEL COMPARISON =====")
-    scores = []
-    for name, y_pred in predictions.items():
-        acc = accuracy_score(y_test, y_pred)
-        f1_macro = f1_score(y_test, y_pred, average="macro")
-        scores.append((name, acc, f1_macro))
-
-    scores.sort(key=lambda x: x[2], reverse=True)  # sort by F1-macro
-
-    print("\nModel Performance Summary (sorted by macro F1):")
-    print("{:<20s} {:<10s} {:<10s}".format("Model", "Accuracy", "F1 (macro)"))
-    print("-" * 42)
-    for name, acc, f1 in scores:
-        print(f"{name:<20s} {acc:<10.3f} {f1:<10.3f}")
-
-    best_model = scores[0][0]
-    print(f"\nRecommended model based on F1-macro: {best_model}")
-
+    print(f"\nBest Model Based on F1: {max(results, key=lambda x: x[2])[0]}")
