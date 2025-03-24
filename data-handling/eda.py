@@ -37,6 +37,7 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig("../plots/boxplot_q1_q4.png", bbox_inches="tight")
 
+
     # One grouped bar plot for each Q3–Q8 group
     for prefix in ["Q3_", "Q6_", "Q7_", "Q8_"]:
         group_cols = [col for col in df.columns if col.startswith(prefix)]
@@ -50,6 +51,17 @@ if __name__ == "__main__":
         plt.tight_layout()
         plot_name = f"../plots/barplot_{prefix[:-1]}.png"
         plt.savefig(plot_name, bbox_inches="tight")
+
+    # Frequency plot for Q5 movie responses (if available)
+    if "Q5_original" in df.columns:
+        top_q5 = df["Q5_original"].value_counts().sort_values(ascending=False).head(15)
+        plt.figure(figsize=(8, 5))
+        sns.barplot(x=top_q5.values, y=top_q5.index)
+        plt.title("Top 15 Q5 (Movie) Responses")
+        plt.xlabel("Count")
+        plt.ylabel("Movie")
+        plt.tight_layout()
+        plt.savefig("../plots/q5_movie_frequencies.png", bbox_inches="tight")
 
     # Correlation heatmap (subset)
     corr_cols = core_numeric + [c for c in df.columns if c.startswith(("Q3_", "Q6_", "Q7_", "Q8_"))]
