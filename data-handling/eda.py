@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 def load_data(path):
-    df = pd.read_csv(path)
-    return df
+    return pd.read_csv(path)
 
 def summarize(df):
     print("===== DATAFRAME INFO =====")
@@ -16,29 +16,17 @@ def summarize(df):
     print("\n===== CLASS DISTRIBUTION (Label) =====")
     print(df["Label"].value_counts())
 
-def correlation_heatmap(df):
-    plt.figure(figsize=(12, 10))
-    sns.heatmap(df.corr(), cmap="coolwarm", annot=False)
-    plt.title("Correlation Heatmap")
-    plt.show()
-
-if __name__ == "__main__":
-    path = "../data/final_processed.csv"
-    df = load_data(path)
-
-    summarize(df)
-
-    # Minimal boxplot for core features
+def plot_structured_eda(df, filename_suffix=""):
+    # Boxplot for Q1–Q4
     core_numeric = ["Q1", "Q2", "Q4"]
     df_melted = df.melt(id_vars="Label", value_vars=core_numeric)
     plt.figure(figsize=(8, 5))
     sns.boxplot(data=df_melted, x="variable", y="value", hue="Label")
     plt.title("Boxplots of Q1–Q4 by Label")
     plt.tight_layout()
-    plt.savefig("../plots/boxplot_q1_q4.png", bbox_inches="tight")
+    plt.savefig(f"../plots/boxplot_q1_q4{filename_suffix}.png", bbox_inches="tight")
 
-
-    # One grouped bar plot for each Q3–Q8 group
+    # Grouped bar plots
     for prefix in ["Q3_", "Q6_", "Q7_", "Q8_"]:
         group_cols = [col for col in df.columns if col.startswith(prefix)]
         if not group_cols:
@@ -49,26 +37,36 @@ if __name__ == "__main__":
         plt.title(f"{prefix[:-1]} Response Totals")
         plt.xlabel("Count")
         plt.tight_layout()
-        plot_name = f"../plots/barplot_{prefix[:-1]}.png"
-        plt.savefig(plot_name, bbox_inches="tight")
+        plt.savefig(f"../plots/barplot_{prefix[:-1].lower()}{filename_suffix}.png", bbox_inches="tight")
 
-    # Frequency plot for Q5 movie responses (if available)
-    if "Q5_original" in df.columns:
-        top_q5 = df["Q5_original"].value_counts().sort_values(ascending=False).head(15)
-        plt.figure(figsize=(8, 5))
-        sns.barplot(x=top_q5.values, y=top_q5.index)
-        plt.title("Top 15 Q5 (Movie) Responses")
-        plt.xlabel("Count")
-        plt.ylabel("Movie")
-        plt.tight_layout()
-        plt.savefig("../plots/q5_movie_frequencies.png", bbox_inches="tight")
-
-    # Correlation heatmap (subset)
+    # Correlation heatmap (subset of structured features)
     corr_cols = core_numeric + [c for c in df.columns if c.startswith(("Q3_", "Q6_", "Q7_", "Q8_"))]
     plt.figure(figsize=(10, 8))
     sns.heatmap(df[corr_cols].corr(), cmap="coolwarm")
     plt.title("Correlation Heatmap")
     plt.tight_layout()
-    plt.savefig("../plots/correlation_heatmap.png", bbox_inches="tight")
+    plt.savefig(f"../plots/correlation_heatmap{filename_suffix}.png", bbox_inches="tight")
 
+def plot_bow_summary(df, filename_suffix=""):
+    if "combined_text" in df.columns:
+        # Word length distribution
+        df["num_words"] = df["combined_text"].str.split().apply(len)
+        plt.figure(figsize=(7, 5))
+        sns.histplot(data=df, x="num_words", bins=30, kde=True)
+        plt.title("Distribution of Word Counts in BoW Inputs")
+        plt.xlabel("Number of Words")
+        plt.tight_layout()
+        plt.savefig(f"../plots/bow_wordcount{filename_suffix}.png", bbox_inches="tight")
 
+if __name__ == "__main__":
+    for path in ["../data/final_processed.csv", "../data/bow_processed.csv"]:
+        print(f"\n=== Running EDA on {path} ===")
+        df = load_data(path)
+        summarize(df)
+
+        suffix = f"_{os.path.splitext(os.path.basename(path))[0]}"
+
+        if "combined_text" in df.columns:
+            plot_bow_summary(df, filename_suffix=suffix)
+        else:
+            plot_structured_eda(df, filename_suffix=suffix)
