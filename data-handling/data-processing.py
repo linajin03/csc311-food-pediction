@@ -1,56 +1,74 @@
 import pandas as pd
-import os
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-# Load dataset
-path = os.path.realpath(__file__)
-dir = os.path.dirname(path)
-dir = dir.replace('data-handling', 'data')
-os.chdir(dir)
-df = pd.read_csv("multi_hot_encoded_df.csv")
+# Define known multi-select categories
+Q3_categories = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
+Q6_categories = [
+    "soda", "other", "tea", "alcohol", "water", "soup", "juice", "milk",
+    "unknown", "smoothie", "asian alcohol", "asian pop", "milkshake"
+]
+Q7_categories = ["Parents", "Siblings", "Friends", "Teachers", "Strangers"]
+Q8_categories = ["None", "A little (mild)", "A moderate amount (medium)", "A lot (hot)", "I will have some of this food item with my hot sauce"]
 
-print("===== BEFORE FILLNA =====")
-print(df.info())
+def one_hot_encode(response_str, categories):
+    result = np.zeros(len(categories))
+    if isinstance(response_str, str):
+        selections = response_str.split(',')
+        for i, category in enumerate(categories):
+            if category in selections:
+                result[i] = 1
+    return result
 
-# Separate columns by type
-numeric_cols = df.select_dtypes(include=["number"]).columns
-object_cols = df.select_dtypes(exclude=["number"]).columns
+def clean_and_encode(input_path, output_path=None):
+    df = pd.read_csv(input_path)
 
-for col in numeric_cols:
-    mean_val = df[col].mean()
-    df[col] = df[col].fillna(mean_val)
+    # Fill missing string fields
+    for col in ["Q3", "Q5", "Q6", "Q7", "Q8"]:
+        df[col] = df[col].fillna("Unknown")
 
-for col in object_cols:
-    df[col] = df[col].fillna("Unknown")
+    # One-hot encode Q3, Q6, Q7, Q8
+    for question, categories in [("Q3", Q3_categories), ("Q6", Q6_categories),
+                                 ("Q7", Q7_categories), ("Q8", Q8_categories)]:
+        encoded = np.array([one_hot_encode(val, categories) for val in df[question]])
+        for i, cat in enumerate(categories):
+            df[f"{question}_{cat}"] = encoded[:, i]
+        df.drop(columns=[question], inplace=True)
 
+    # Label encode Q5, Q8 (again for backup)
+    for col in ["Q5", "Q8"]:
+        le = LabelEncoder()
+        df[col] = le.fit_transform(df[col].astype(str))
 
-print("===== AFTER FILLNA =====")
-print(df.info())
+    # Handle missing numeric and normalize
+    if "Q4" in df.columns:
+        df["Q4"] = df["Q4"].replace({"\$": ""}, regex=True).replace("Unknown", np.nan)
+        df["Q4"] = pd.to_numeric(df["Q4"], errors="coerce")
 
-# Now do label encoding of any remaining object columns
-categorical_columns = df.select_dtypes(include=['object']).columns
-label_encoders = {}
+    numeric_cols = df.select_dtypes(include=["int64", "float64"]).columns.drop("Label", errors='ignore')
+    df[numeric_cols] = df[numeric_cols].fillna(df[numeric_cols].mean())
 
-for col in categorical_columns:
-    le = LabelEncoder()
-    df[col] = le.fit_transform(df[col].astype(str))
-    label_encoders[col] = le  # Store encoder if needed later
+    scaler = StandardScaler()
+    df[numeric_cols] = scaler.fit_transform(df[numeric_cols])
 
-# Normalize numerical features
-scaler = StandardScaler()
-numeric_columns = df.select_dtypes(include=['int64', 'float64']).columns
-df[numeric_columns] = scaler.fit_transform(df[numeric_columns])
+    # Encode label
+    if "Label" in df.columns:
+        df["Label"] = df["Label"].fillna("Unknown")
+        label_encoder = LabelEncoder()
+        df["Label"] = label_encoder.fit_transform(df["Label"].astype(str))
 
-# Train-Test Split
-X = df.drop(columns=['Label'])  # or whichever columns you consider the target
-y = df['Label']
-X_train, X_test, y_train, y_test = train_test_split(X, y,
-                                                    test_size=0.2,
-                                                    random_state=42)
+    if output_path:
+        df.to_csv(output_path, index=False)
 
-# Save processed data for model training
-X_train.to_csv("X_train.csv", index=False)
-X_test.to_csv("X_test.csv", index=False)
-y_train.to_csv("Y_train.csv", index=False)
-y_test.to_csv("Y_test.csv", index=False)
+    return df
+
+def split_data(df, test_size=0.2):
+    X = df.drop(columns=["Label"])
+    y = df["Label"]
+    return train_test_split(X, y, test_size=test_size, random_state=42)
+
+if __name__ == "__main__":
+    df = clean_and_encode("data/cleaned_data.csv", "data/final_processed.csv")
+    X_train, X_test, y_train, y_test = split_data(df)
+    print("Training size:", len(X_train), "| Test size:", len(X_test))
