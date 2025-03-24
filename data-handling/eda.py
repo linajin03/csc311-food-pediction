@@ -1,30 +1,62 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# 1. Load final numeric data (adjust filename as needed)
-df = pd.read_csv("/mnt/data/multi_hot_encoded_df.csv")
+def load_data(path):
+    df = pd.read_csv(path)
+    return df
 
-# 2. Basic info
-print(df.info())
-print(df.head())
+def summarize(df):
+    print("===== DATAFRAME INFO =====")
+    print(df.info())
+    print("\n===== MISSING VALUES =====")
+    print(df.isna().sum())
+    print("\n===== BASIC STATS =====")
+    print(df.describe(include="all"))
+    print("\n===== CLASS DISTRIBUTION (Label) =====")
+    print(df["Label"].value_counts())
 
-# 3. Distribution of Labels (assuming "Label" is numeric after encoding)
-plt.figure(figsize=(8, 6))
-sns.countplot(x='Label', data=df)
-plt.title("Distribution of Food Categories")
-plt.xticks(rotation=45)
-plt.show()
+def correlation_heatmap(df):
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(df.corr(), cmap="coolwarm", annot=False)
+    plt.title("Correlation Heatmap")
+    plt.show()
 
-# 4. Correlation Matrix (all numeric columns)
-plt.figure(figsize=(12, 8))
-sns.heatmap(df.corr(), annot=True, cmap='coolwarm', fmt=".2f")
-plt.title("Feature Correlation Heatmap")
-plt.show()
+if __name__ == "__main__":
+    path = "../data/final_processed.csv"
+    df = load_data(path)
 
-# 5. Boxplot for numerical features
-numerical_columns = df.select_dtypes(include=['int64','float64']).columns
-plt.figure(figsize=(10, 6))
-df[numerical_columns].boxplot(rot=45)
-plt.title("Boxplot of Numerical Features")
-plt.show()
+    summarize(df)
+
+    # Minimal boxplot for core features
+    core_numeric = ["Q1", "Q2", "Q4"]
+    df_melted = df.melt(id_vars="Label", value_vars=core_numeric)
+    plt.figure(figsize=(8, 5))
+    sns.boxplot(data=df_melted, x="variable", y="value", hue="Label")
+    plt.title("Boxplots of Q1–Q4 by Label")
+    plt.tight_layout()
+    plt.savefig("../plots/boxplot_q1_q4.png", bbox_inches="tight")
+
+    # One grouped bar plot for each Q3–Q8 group
+    for prefix in ["Q3_", "Q6_", "Q7_", "Q8_"]:
+        group_cols = [col for col in df.columns if col.startswith(prefix)]
+        if not group_cols:
+            continue
+        plt.figure(figsize=(8, max(3, len(group_cols) * 0.3)))
+        counts = df[group_cols].sum().sort_values()
+        sns.barplot(x=counts.values, y=counts.index, palette="viridis")
+        plt.title(f"{prefix[:-1]} Response Totals")
+        plt.xlabel("Count")
+        plt.tight_layout()
+        plot_name = f"../plots/barplot_{prefix[:-1]}.png"
+        plt.savefig(plot_name, bbox_inches="tight")
+
+    # Correlation heatmap (subset)
+    corr_cols = core_numeric + [c for c in df.columns if c.startswith(("Q3_", "Q6_", "Q7_", "Q8_"))]
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(df[corr_cols].corr(), cmap="coolwarm")
+    plt.title("Correlation Heatmap")
+    plt.tight_layout()
+    plt.savefig("../plots/correlation_heatmap.png", bbox_inches="tight")
+
+
