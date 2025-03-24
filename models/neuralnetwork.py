@@ -240,84 +240,6 @@ def categorize_movie_genre(movie_title):
     # If no match is found
     return "other"
 
-def clean_data(df):
-    """
-    Clean and format the data in the dataframe
-    """
-    q1_label = "Q1: From a scale 1 to 5, how complex is it to make this food? (Where 1 is the most simple, and 5 is the most complex)"
-    q2_label = "Q2: How many ingredients would you expect this food item to contain?"
-    q3_label = "Q3: In what setting would you expect this food to be served? Please check all that apply"
-    q4_label = "Q4: How much would you expect to pay for one serving of this food item?"
-    q5_label = "Q5: What movie do you think of when thinking of this food item?"
-    q6_label = "Q6: What drink would you pair with this food item?"
-    q7_label = "Q7: When you think about this food item, who does it remind you of?"
-    q8_label = "Q8: How much hot sauce would you add to this food item?"
-
-    # Categorical Feature categories
-    Q3_categories = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
-
-    Q6_categories = [
-        "soda", "other", "tea", "alcohol", "water", "soup", "juice", "milk",
-        "unknown", "smoothie", "asian alcohol", "asian pop", "milkshake"
-    ]
-    Q7_categories = ["Parents", "Siblings", "Friends", "Teachers", "Strangers"]
-    Q8_categories = ["None", "A little (mild)", "A moderate amount (medium)", "A lot (hot)", "I will have some of this food item with my hot sauce"]
-    # Clean Q2
-    # df['Q2'] = df[q2_label].apply(clean_Q2)
-
-    # Convert cleaned to numeric
-    # df['Q2'] = pd.to_numeric(df['Q2'], errors='coerce')
-
-    # Extract columns for Q3, Q6, Q7, and Q8
-    q3 = df[q3_label]
-    q5 = df[q5_label]
-    q6 = df[q6_label]
-    q7 = df[q7_label]
-    q8 = df[q8_label]
-
-    df[q5_label] = q5.apply(categorize_movie_genre)
-    df_genres = df[q5_label].str.get_dummies(sep=',')
-
-    # Concatenate the new genre columns with the original DataFrame
-    df = pd.concat([df, df_genres], axis=1)
-    df = df.drop(columns=[q5_label])
-
-    # One hot encode Q3, Q5, Q6, and Q7
-    q3 = np.array([one_hot_encode(response, Q3_categories) for response in q3])
-    q6 = np.array([one_hot_encode(response, Q6_categories) for response in q6])
-    q7 = np.array([one_hot_encode(response, Q7_categories) for response in q7])
-
-    # Create new columns for Q3, Q6, and Q7
-    for i, category in enumerate(Q3_categories):
-        df[category] = q3[:, i]
-    for i, category in enumerate(Q6_categories):
-        df[category] = q6[:, i]
-    for i, category in enumerate(Q7_categories):
-        df[category] = q7[:, i]
-
-    # Convert Q8 to ordinal scale (0, 1, 2, 3, 4)
-    ordinal_mapping = {category: idx for idx, category in enumerate(Q8_categories)}
-    df['Q8'] = df[q8_label].map(ordinal_mapping)
-
-    df = df.rename(columns={q4_label: 'Q4'})
-    # Remove dollar signs from Q4
-    df["Q4"] = df["Q4"].str.replace("$", "")
-
-    # Drop original categorical columns
-    df = df.drop(columns=[
-        q3_label, q6_label, q7_label, q8_label
-    ])
-
-    # Change labels of Q1, Q2, and Q4
-    df = df.rename(columns={q1_label: 'Q1', q2_label: 'Q2', q4_label: 'Q4'})
-
-    # Make sure its an integer
-    df['Q1'] = df['Q1'].astype(int, errors='ignore')
-    df['Q2'] = df['Q2'].astype(int, errors='ignore')
-    df['Q4'] = df['Q4'].astype(int, errors='ignore')
-
-    return df
-
 
 def evaluate_model(model, X_test, y_test):
     """
@@ -334,9 +256,8 @@ def evaluate_model(model, X_test, y_test):
 
     return accuracy
 
-df = pd.read_csv('../data/cleaned_data.csv')
+df = pd.read_csv('../data/final_processed.csv')  # already processed
 
-df = clean_data(df)
 
 # list the columns
 print(df.columns)
@@ -642,50 +563,46 @@ def train_test_split(X, y, test_size=0.2, random_state=None):
 
     return X_train, X_test, y_train, y_test
 
+
 feature_columns = [
-"Q1",
-"Q2",
-"Q4",
-"Q8",
-"Week day lunch",
-"Week day dinner",
-"Weekend lunch",
-"Weekend dinner",
-"At a party",
-"Late night snack",
-"soda",
-"other",
-"tea",
-"alcohol",
-"water",
-"soup",
-"juice",
-"milk",
-"unknown",
-"smoothie",
-"asian alcohol",
-"asian pop",
-"milkshake",
-"Parents",
-"Siblings",
-"Friends",
-"Teachers",
-"Strangers",
-'Action',
-'Adventure',
-'Animation',
-'Comedy',
-'Crime',
-'Documentary',
-'Drama',
-'Family',
-'Fantasy',
-'Horror',
-'Music', 'Musical', 'Mystery', 'Political', 'Romance',
-       'Sci-Fi', 'Sports', 'Superhero', 'Thriller', 'no_movie', 'other'
+    "Q1", "Q2", "Q4",
+
+    # Q3 (settings)
+    "Q3_Week day lunch",
+    "Q3_Week day dinner",
+    "Q3_Weekend lunch",
+    "Q3_Weekend dinner",
+    "Q3_At a party",
+    "Q3_Late night snack",
+
+    # Q6 (drinks)
+    "Q6_soda", "Q6_other", "Q6_tea", "Q6_alcohol", "Q6_water",
+    "Q6_soup", "Q6_juice", "Q6_milk", "Q6_unknown", "Q6_smoothie",
+    "Q6_asian alcohol", "Q6_asian pop", "Q6_milkshake",
+
+    # Q7 (people)
+    "Q7_Parents", "Q7_Siblings", "Q7_Friends", "Q7_Teachers", "Q7_Strangers",
+
+    # Q8 (hot sauce levels)
+    "Q8_None",
+    "Q8_A little (mild)",
+    "Q8_A moderate amount (medium)",
+    "Q8_A lot (hot)",
+    "Q8_I will have some of this food item with my hot sauce",
+
+    # Q5 (movie genres)
+    "genre_Thriller", "genre_Fantasy", "genre_Mystery", "genre_Animation",
+    "genre_Comedy", "genre_Sci-Fi", "genre_Horror", "genre_Documentary",
+    "genre_Sports", "genre_Action", "genre_Romance", "genre_other",
+    "genre_Superhero", "genre_Music", "genre_Family", "genre_Crime",
+    "genre_Musical", "genre_Drama", "genre_Adventure", "genre_Political"
 ]
+
 # summarize df
 df = df[feature_columns + ['Label']]
+
+if "id" in df.columns:
+    df = df.drop(columns=["id"])
 
 features = df[feature_columns].fillna(0).values
 target = df['Label'].map({'Pizza': 0, 'Shawarma': 1, 'Sushi': 2}).values

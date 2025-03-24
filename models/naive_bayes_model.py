@@ -9,10 +9,7 @@ Original file is located at
 Mount drive and get csv file
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-data_string = "/content/drive/MyDrive/csc311/worded_data.csv"
+data_string = "data/worded_data.csv"
 
 import csv
 data = csv.reader(open(data_string))
@@ -103,7 +100,7 @@ print(X_train)
 """
 
 def naive_bayes_map(X, t):
-    """
+    r"""
     Compute the parameters $pi$ and $theta_{jc}$ that maximizes the posterior
     of the provided data (X, t). We will use the beta distribution with
     $a=2$ and $b=2$ for all of our parameters.
