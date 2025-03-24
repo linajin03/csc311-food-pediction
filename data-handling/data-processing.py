@@ -37,13 +37,13 @@ def clean_and_encode(input_path, output_path=None):
         df.drop(columns=[question], inplace=True)
 
     # Label encode Q5, Q8 (again for backup)
-    for col in ["Q5", "Q8"]:
+    for col in ["Q5"]:
         le = LabelEncoder()
         df[col] = le.fit_transform(df[col].astype(str))
 
     # Handle missing numeric and normalize
     if "Q4" in df.columns:
-        df["Q4"] = df["Q4"].replace({"\$": ""}, regex=True).replace("Unknown", np.nan)
+        df["Q4"] = df["Q4"].replace(r"\$", "", regex=True).replace("Unknown", np.nan)
         df["Q4"] = pd.to_numeric(df["Q4"], errors="coerce")
 
     numeric_cols = df.select_dtypes(include=["int64", "float64"]).columns.drop("Label", errors='ignore')
@@ -69,6 +69,6 @@ def split_data(df, test_size=0.2):
     return train_test_split(X, y, test_size=test_size, random_state=42)
 
 if __name__ == "__main__":
-    df = clean_and_encode("data/cleaned_data.csv", "data/final_processed.csv")
+    df = clean_and_encode("../data/cleaned_data.csv", "../data/final_processed.csv")
     X_train, X_test, y_train, y_test = split_data(df)
     print("Training size:", len(X_train), "| Test size:", len(X_test))
