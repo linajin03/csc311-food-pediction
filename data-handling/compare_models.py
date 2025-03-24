@@ -1,12 +1,14 @@
 import numpy as np
 from sklearn.metrics import classification_report, f1_score, accuracy_score
+from models.neuralnetwork import feature_columns
 
 # === Naive Bayes ===
 
 def evaluate_naive_bayes():
     import csv
     from models.naive_bayes_model import make_bow, naive_bayes_map, make_prediction
-    with open("data/worded_data.csv") as f:
+
+    with open("../data/worded_data.csv") as f:
         data_list = list(csv.reader(f))[1:]
     np.random.seed(42)
     np.random.shuffle(data_list)
@@ -55,12 +57,28 @@ def evaluate_neural_network():
     from models.neuralnetwork import FoodNeuralNetwork, train_sgd, train_test_split
     import pandas as pd
 
-    df = pd.read_csv("data/final_processed.csv")
-    X = df.drop(columns=["Label"]).values.astype(int)
-    y = df["Label"].astype(int).values
+    df = pd.read_csv("../data/final_processed.csv")
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+    # Step 1: Ensure Label column is numeric
+    df["Label"] = pd.to_numeric(df["Label"], errors="coerce")
 
+    # Step 2: Drop rows where label is NaN
+    df = df.dropna(subset=["Label"])
+    df["Label"] = df["Label"].astype(int)
+
+    # Step 3: Drop any remaining NaNs in feature columns (if any)
+    df = df.dropna(subset=feature_columns)
+
+    # Step 4: Load features and labels
+    X = df[feature_columns].astype(int).values
+    y = df["Label"].values
+
+    # Step 5: Split
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.4, random_state=42
+    )
+
+    # Step 6: Train and evaluate
     model = FoodNeuralNetwork(num_features=X.shape[1], num_hidden=100, num_classes=3)
     train_sgd(model, X_train, y_train, alpha=0.1, n_epochs=200, batch_size=128, X_valid=X_test, t_valid=y_test, plot=False)
 

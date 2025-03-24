@@ -466,9 +466,14 @@ def train_sgd(model, X_train, t_train,
 
     Return weights after `niter` iterations.
     '''
+
     def make_onehot(indicies, total=128):
+        indicies = np.array(indicies, dtype=int)
+        if np.any(indicies < 0) or np.any(indicies >= total):
+            raise ValueError(f"Invalid class index in labels: {indicies}")
         I = np.eye(total)
         return I[indicies]
+
     # as before, initialize all the weights to zeros
     w = np.zeros(X_train.shape[1])
 
@@ -598,45 +603,23 @@ feature_columns = [
     "genre_Musical", "genre_Drama", "genre_Adventure", "genre_Political"
 ]
 
-# summarize df
-df = df[feature_columns + ['Label']]
+# Export these for other scripts
+__all__ = ["FoodNeuralNetwork", "train_sgd", "train_test_split", "feature_columns"]
 
-if "id" in df.columns:
-    df = df.drop(columns=["id"])
+# Optional test block (won't run during import)
+if __name__ == "__main__":
+    df = pd.read_csv('../data/final_processed.csv')
+    if "id" in df.columns:
+        df = df.drop(columns=["id"])
+    df = df.dropna(subset=feature_columns + ["Label"])
+    df["Label"] = pd.to_numeric(df["Label"], errors="coerce").astype(int)
 
-features = df[feature_columns].fillna(0).values
-target = df['Label'].map({'Pizza': 0, 'Shawarma': 1, 'Sushi': 2}).values
+    features = df[feature_columns].fillna(0).astype(int).values
+    target = df["Label"].values
 
-# create a small subset of the data for testing
-X = features[:1000]
-y = target[:1000]
-model = FoodNeuralNetwork(num_features=X.shape[1], num_hidden=100, num_classes=3)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-train_sgd(model, X_train=X_train, t_train=y_train, alpha=0.2, batch_size=100, n_epochs=500)
+    X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.4, random_state=42)
 
-X = df[feature_columns].fillna(0).values
-y = df['Label'].map({'Pizza': 0, 'Shawarma': 1, 'Sushi': 2}).values  # Convert labels to integers
+    model = FoodNeuralNetwork(num_features=features.shape[1], num_hidden=100, num_classes=3)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
-
-model = FoodNeuralNetwork(num_features=X_train.shape[1], num_hidden=100, num_classes=3)
-
-train_sgd(model, X_train, y_train, alpha=0.1, n_epochs=200, batch_size=128, X_valid=X_test, t_valid=y_test)
-
-from sklearn.model_selection import ParameterGrid
-
-param_grid = {
-    'alpha': [0.001, 0.01, 0.1],
-    'n_epochs': [50, 100, 200],
-    'batch_size': [32, 64, 128],
-}
-
-for params in ParameterGrid(param_grid):
-    train_sgd(
-        model, X_train, y_train,
-        alpha=params['alpha'],
-        n_epochs=params['n_epochs'],
-        batch_size=params['batch_size'],
-        X_valid=X_test,
-        t_valid=y_test
-    )
+    print("Training on full dataset (standalone test)...")
+    train_sgd(model, X_train, y_train, alpha=0.1, n_epochs=200, batch_size=128, X_valid=X_test, t_valid=y_test)

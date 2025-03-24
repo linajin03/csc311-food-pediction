@@ -9,7 +9,7 @@ Original file is located at
 Mount drive and get csv file
 """
 
-data_string = "data/worded_data.csv"
+data_string = "../data/worded_data.csv"
 
 import csv
 data = csv.reader(open(data_string))
@@ -29,8 +29,6 @@ for i, line in enumerate(data):
     vocab_set.add(w)
 
 vocab = list(vocab_set)
-
-print(vocab_set)
 
 print("Vocabulary Size: ", len(vocab)) # Please include the output of this statement in your submission
 
@@ -60,7 +58,6 @@ def make_bow(data, vocab):
     X = np.zeros([len(data), len(vocab)])
     t = np.zeros([len(data)])
     vocab_dict = {word: idx for idx, word in enumerate(vocab)}
-    print(vocab_dict)
 
     for i, row in enumerate(data):
         if row[9] == 'Pizza':
@@ -71,7 +68,6 @@ def make_bow(data, vocab):
           t[i] = 2
         review = [word for sublist in row[1:9] for word in sublist.split(",")]
 
-        print(review)
         words = set(review)
         for word in words:
             if word in vocab_dict:
@@ -93,7 +89,6 @@ random.shuffle(data_list)
 
 X_train, t_train = make_bow(data_list[:820], vocab)
 X_valid, t_valid = make_bow(data_list[820:], vocab)
-print(X_train)
 
 """MAP - calculate Pi and Theta
 
@@ -138,10 +133,6 @@ def naive_bayes_map(X, t):
 
 pi0, pi1, pi2, theta_map = naive_bayes_map(X_train, t_train)
 
-print(theta_map.shape) # should be (549, 2)
-print(pi0)
-print(pi1)
-print(pi2)
 
 def make_prediction(X, pi0, pi1, pi2, theta):
     """
@@ -199,6 +190,5 @@ def accuracy(y, t):
 y_map_train = make_prediction(X_train, pi0, pi1, pi2, theta_map)
 
 y_map_valid = make_prediction(X_valid, pi0, pi1, pi2, theta_map)
-print(y_map_valid)
 print("MAP Train Acc:", accuracy(y_map_train, t_train))
 print("MAP Valid Acc:", accuracy(y_map_valid, t_valid))
