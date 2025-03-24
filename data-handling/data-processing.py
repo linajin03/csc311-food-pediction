@@ -37,9 +37,9 @@ def clean_and_encode(input_path, output_path=None):
         df.drop(columns=[question], inplace=True)
 
     # Label encode Q5, Q8 (again for backup)
-    for col in ["Q5"]:
-        le = LabelEncoder()
-        df[col] = le.fit_transform(df[col].astype(str))
+    df["Q5_original"] = df["Q5"]  # preserve original string version for EDA
+    le = LabelEncoder()
+    df["Q5"] = le.fit_transform(df["Q5"].astype(str))
 
     # Handle missing numeric and normalize
     if "Q4" in df.columns:
