@@ -1,19 +1,10 @@
 
 import pandas as pd
 import numpy as np
-from movie_genres import movie_genres
-import sys
+from movie_genre_dict import movie_genres
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-from q2 import clean_Q2
-from q5 import clean_movie_text
-from q6 import clean_drink_text
 
 # Multi-select categories
 Q3_cats = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
