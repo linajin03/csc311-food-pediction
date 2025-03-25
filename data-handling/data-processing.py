@@ -1,19 +1,10 @@
 
 import pandas as pd
 import numpy as np
-from movie_genres import movie_genres
-import sys
+from movie_genre_dict import movie_genres
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-from q2 import clean_Q2
-from q5 import clean_movie_text
-from q6 import clean_drink_text
 
 # Multi-select categories
 Q3_cats = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
@@ -73,6 +64,7 @@ def process(path, output_path="final_processed.csv", for_bow=False):
         # concatenate all free-response Q1–Q8 answers into a single text blob
         df["combined_text"] = df[[f"Q{i}" for i in range(1, 9)]].astype(str).agg(" ".join, axis=1)
         df = df[["combined_text", "Label"]]
+        
     else:
         normalize_column(df, "Q1")
         normalize_column(df, "Q2")
@@ -82,7 +74,6 @@ def process(path, output_path="final_processed.csv", for_bow=False):
         one_hot_encode_column(df, "Q7", Q7_cats)
         one_hot_encode_column(df, "Q8", Q8_cats)
         encode_genres(df)
-        pass
 
     #encode_label(df)
     df.to_csv(output_path, index=False)

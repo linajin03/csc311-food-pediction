@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 from q2 import clean_Q2
+from q4 import clean_price
 from q5 import clean_movie_text
 from q6 import clean_drink_text
 
@@ -31,14 +32,15 @@ def clean(path, output_path="cleaned_data.csv"):
     #clean each column of the dataframe (soz this is a little messy :P - vince)
 
     #Q1 requires no cleaning
+    
     #cleaning Q2
     df['Q2'] = df['Q2'].apply(clean_Q2)
     df['Q2'] = pd.to_numeric(df['Q2'], errors='coerce')
 
     #Q3 requires no cleaning
-     #cleaning Q4 (Waiting on proper cleaning code?)
-    df["Q4"] = df["Q4"].astype(str).str.replace("$", "").replace("Unknown", np.nan)
-    df["Q4"] = pd.to_numeric(df["Q4"], errors="coerce")
+
+     #cleaning Q4 
+    df["Q4"] = df["Q4"].apply(clean_price)
 
     #cleaning Q5
     df["Q5"] = df["Q5"].apply(clean_movie_text)
