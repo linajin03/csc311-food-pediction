@@ -3,7 +3,7 @@ import numpy as np
 import re
 
 # Load dataset
-df = pd.read_csv('cleaned_data_combined_modified.csv')
+df = pd.read_csv('data/cleaned_data_combined_modified.csv')
 
 
 # Helpers

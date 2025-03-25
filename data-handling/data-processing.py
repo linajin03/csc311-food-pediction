@@ -11,6 +11,10 @@ import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
+from q2 import clean_Q2
+from q5 import clean_movie_text
+from q6 import clean_drink_text
+
 # Multi-select categories
 Q3_cats = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
 Q6_cats = ["soda", "other", "tea", "alcohol", "water", "soup", "juice", "milk", "unknown", "smoothie", "asian alcohol", "asian pop", "milkshake"]
@@ -30,9 +34,12 @@ def one_hot_encode_column(df, col, categories):
     df.drop(columns=[col], inplace=True)
 
 def normalize_column(df, col):
-    mean = df[col].mean()
-    std = df[col].std()
-    df[col] = (df[col] - mean) / std
+    #filter out negative values
+    mask = (df[col] >= 0)
+    filtered_df = df.loc[mask, col]
+    mean = filtered_df.mean()
+    std = filtered_df.std()
+    df.loc[mask, col] = (df.loc[mask, col] - mean) / std
 
 def categorize_movie_genre(movie_title):
     if movie_title is None or str(movie_title).lower() in ['none', 'nan'] or not str(movie_title).strip():
@@ -59,35 +66,29 @@ def encode_label(df):
     df["Label"] = df["Label"].map(label_map)
     return label_map
 
-def clean_and_process(path, output_path="final_processed.csv", for_bow=False):
+def process(path, output_path="final_processed.csv", for_bow=False):
     df = pd.read_csv(path)
-
-    for col in ["Q3", "Q5", "Q6", "Q7", "Q8"]:
-        df[col] = df[col].fillna("Unknown")
-
-    df["Q4"] = df["Q4"].astype(str).str.replace("$", "").replace("Unknown", np.nan)
-    df["Q4"] = pd.to_numeric(df["Q4"], errors="coerce")
-
-    for col in ["Q1", "Q2", "Q4"]:
-        df[col] = df[col].fillna(df[col].mean())
-        normalize_column(df, col)
 
     if for_bow:
         # concatenate all free-response Q1–Q8 answers into a single text blob
         df["combined_text"] = df[[f"Q{i}" for i in range(1, 9)]].astype(str).agg(" ".join, axis=1)
         df = df[["combined_text", "Label"]]
     else:
+        normalize_column(df, "Q1")
+        normalize_column(df, "Q2")
+        normalize_column(df, "Q4")
         one_hot_encode_column(df, "Q3", Q3_cats)
         one_hot_encode_column(df, "Q6", Q6_cats)
         one_hot_encode_column(df, "Q7", Q7_cats)
         one_hot_encode_column(df, "Q8", Q8_cats)
         encode_genres(df)
+        pass
 
-    encode_label(df)
+    #encode_label(df)
     df.to_csv(output_path, index=False)
     print(f"Saved processed data to {output_path}")
 
 if __name__ == "__main__":
-    clean_and_process("../data/cleaned_data.csv", "../data/final_processed.csv", for_bow=False)
-    clean_and_process("../data/cleaned_data.csv", "../data/bow_processed.csv", for_bow=True)
+    process("data/cleaned_data.csv", "data/final_processed.csv", for_bow=False)
+    process("data/cleaned_data.csv", "data/bow_processed.csv", for_bow=True)
 

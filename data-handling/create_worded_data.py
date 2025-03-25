@@ -102,4 +102,4 @@ def clean_data(input_file, output_file, delimiter=','):
         print("Error:", e)
 
 if __name__ == "__main__":
-    clean_data("../data/cleaned_data.csv", "../data/worded_data.csv")
+    clean_data("data/cleaned_data.csv", "data/worded_data.csv")
