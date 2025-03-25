@@ -64,15 +64,20 @@ def process(path, output_path="final_processed.csv", for_bow=False):
         # concatenate all free-response Q1–Q8 answers into a single text blob
         df["combined_text"] = df[[f"Q{i}" for i in range(1, 9)]].astype(str).agg(" ".join, axis=1)
         df = df[["combined_text", "Label"]]
-        
+
     else:
+        Q8_cats = ["None", "A little (mild)", "A moderate amount (medium)", "A lot (hot)", "I will have some of this food item with my hot sauce"]
+
         normalize_column(df, "Q1")
         normalize_column(df, "Q2")
         normalize_column(df, "Q4")
         one_hot_encode_column(df, "Q3", Q3_cats)
         one_hot_encode_column(df, "Q6", Q6_cats)
         one_hot_encode_column(df, "Q7", Q7_cats)
-        one_hot_encode_column(df, "Q8", Q8_cats)
+        # Convert Q8 to ordinal scale (0, 1, 2, 3, 4)
+        ordinal_mapping = {category: idx for idx, category in enumerate(Q8_cats)}
+        df['Q8'] = df["Q8"].map(ordinal_mapping)
+        #convert movies to genres
         encode_genres(df)
 
     #encode_label(df)
