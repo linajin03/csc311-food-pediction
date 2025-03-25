@@ -1,6 +1,15 @@
+
 import pandas as pd
 import numpy as np
-from movie_genre_dict import movie_genres
+from movie_genres import movie_genres
+import sys
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Multi-select categories
 Q3_cats = ["Week day lunch", "Week day dinner", "Weekend lunch", "Weekend dinner", "At a party", "Late night snack"]
@@ -81,3 +90,4 @@ def clean_and_process(path, output_path="final_processed.csv", for_bow=False):
 if __name__ == "__main__":
     clean_and_process("../data/cleaned_data.csv", "../data/final_processed.csv", for_bow=False)
     clean_and_process("../data/cleaned_data.csv", "../data/bow_processed.csv", for_bow=True)
+
