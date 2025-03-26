@@ -1,71 +1,78 @@
 import pandas as pd
+import re
+
 def clean_Q2(q2):
     """
     Clean column Q2 in csv file, converting to all numerical discrete values.
-    Handles:
-    - Numerical values (e.g., "5", "6.0")
-    - Ranges (e.g., "4-6")
-    - Textual descriptions (e.g., "around 3")
-    - Spelled-out numbers (e.g., "three")
-    - Ingredient lists (e.g., "bread, meat, cheese")
-    - Multi-line ingredient lists (e.g., "I would expect it to contain:\n* Bread\n* Cheese")
-    - #NAME? and other non-numeric values
+    Handles various input formats and extracts numerical information.
     """
     # Handle NaN values
     if pd.isna(q2):
         return pd.NA
     
-    # Convert to string if not already
+    # Convert to string and strip whitespace
     q2 = str(q2).strip()
     
     # Handle "I don't know" or similar cases
-    if '#NAME?' in q2 or 'don\'t know' in q2.lower() or 'dont know' in q2.lower() or 'no idea' in q2.lower():
-        print(f"Skipping Q2 value: {q2}")
+    if any(phrase in q2.lower() for phrase in ['#name?', 'don\'t know', 'dont know', 'no idea']):
         return pd.NA
     
-    # Handle ranges like "4-6" or "5 to 7"
-    if '-' in q2 or 'to' in q2 or '~' in q2:
-        parts = q2.replace('to', '-').replace('~', '-').split('-')
-        if len(parts) == 2 and parts[0].strip().replace('.', '', 1).isdigit() and parts[1].strip().replace('.', '', 1).isdigit():
-            low = float(parts[0].strip())
-            high = float(parts[1].strip())
-            return int((low + high) // 2)  # Return the floored average
-        
-    # Handle single numbers (integers or floats)
-    if q2.replace('.', '', 1).isdigit():  # Check if it's a number (including floats)
-        return int(float(q2))  # Convert to float first, then to integer
-
-    # Handle textual descriptions like "around 5" or "about 3"
-    textual_indicators = ["around", "about", "approximately", "~"]
-    for indicator in textual_indicators:
-        if indicator in q2.lower():
-            parts = q2.split()
-            for part in parts:
-                if part.replace('.', '', 1).isdigit():  # Check if part is a number (including floats)
-                    return int(float(part))  # Convert to float first, then to integer
+    # Normalize the string
+    q2_lower = q2.lower()
     
-    # Handle cases where the number is spelled out (e.g., "three")
+    # Spelled out number mapping
     spelled_out_numbers = {
-        'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
-        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10
+        'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+        'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
+        'eleven': 11, 'twelve': 12
     }
-    for word, num in spelled_out_numbers.items():
-        if word in q2.lower():
-            return num
+    
+    # First, try to extract numbers using regex
+    def extract_number(text):
+        # Try to find numbers with decimal points or whole numbers
+        numbers = re.findall(r'\b(\d+(?:\.\d+)?)\b', text)
+        
+        # If numbers found, return the first one as an integer
+        if numbers:
+            return int(float(numbers[0]))
+        
+        # Check for spelled out numbers
+        for word, num in spelled_out_numbers.items():
+            if word in text.lower():
+                return num
+        
+        return None
+    
+    # Check for ranges first (prioritize range parsing)
+    range_match = re.search(r'(\d+(?:\.\d+)?)\s*[-~]\s*(\d+(?:\.\d+)?)', q2)
+    if range_match:
+        low = float(range_match.group(1))
+        high = float(range_match.group(2))
+        return int((low + high) / 2)
+    
+    # Textual indicators for approximation
+    approx_indicators = ['around', 'about', 'approximately', '~', 'roughly']
+    
+    # Check for approximation with numbers
+    for indicator in approx_indicators:
+        if indicator in q2_lower:
+            num = extract_number(q2)
+            if num is not None:
+                return num
+    
+    # Extract direct number
+    direct_num = extract_number(q2)
+    if direct_num is not None:
+        return direct_num
     
     # Handle ingredient lists
-    # Check if the text looks like a list of ingredients (may be an issue for those who answered in sentences)
-    if ',' in q2 or '\n' in q2 or ' and ' in q2.lower():
-        lines = q2.split('\n')
-        ingredients = []
-        for line in lines:
-            line = line.replace('*', '').replace('-', '').replace('•', '').strip()
-            if line:
-                parts = [part.strip() for part in line.replace(' and ', ',').split(',')]
-                ingredients.extend([part for part in parts if part])
-        unique_ingredients = set(ingredients)
-        return len(unique_ingredients)
+    # Split by common delimiters and count unique ingredients
+    delimiters = [',', '\n', ' and ', ';']
+    for delimiter in delimiters:
+        ingredients = [ing.strip() for ing in q2.split(delimiter) if ing.strip()]
+        if len(ingredients) > 1:
+            return len(set(ingredients))
     
-    # If no number or ingredients are found, return 'n/a'
+    # If no number or ingredients are found, print and return NA
     print(f"Could not parse Q2 value: {q2}")
     return pd.NA
