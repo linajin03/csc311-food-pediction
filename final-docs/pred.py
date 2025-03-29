@@ -133,5 +133,8 @@ def predict_all(filename):
 # For local testing only
 if __name__ == "__main__":
     # Example usage
+    # preprocess inputs
+    # load csv
+    df = pd.read_csv("example_test_set.csv")
     test_predictions = predict_all("example_test_set.csv")
     print(test_predictions)
