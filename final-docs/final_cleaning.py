@@ -288,7 +288,7 @@ def clean_data(df):
     df["Q4"] = df["Q4"].apply(lambda x: str(x).replace("$", "") if isinstance(x, str) else x)
 
     # Drop original categorical columns
-    df = df.drop(columns=[ 'Q3', 'Q6', 'Q7', 'Q8'])
+    df = df.drop(columns=[ 'Q3', 'Q6', 'Q7'])
 
     # Make sure its an integer
     df['Q1'] = df['Q1'].astype(int, errors='ignore')
