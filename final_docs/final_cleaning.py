@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import re
+from data_handling.movie_genre_dict import movie_genres
 
 
 def clean_Q2(q2):
@@ -224,6 +225,12 @@ def clean_data(df):
       - Create dummies for Q5
       - Standardize Q2 and Q4 (keep them as floats, no int-cast)
     """
+    print("Raw columns:", df.columns.tolist())
+    for col in df.columns:
+        print(repr(col))
+
+    df.columns = df.columns.str.strip()
+    df.columns = df.columns.str.replace('"', '')
     df.rename(
         columns={
             'Q1: From a scale 1 to 5, how complex is it to make this food? (Where 1 is the most simple, and 5 is the most complex)': 'Q1',
@@ -237,6 +244,7 @@ def clean_data(df):
         },
         inplace=True
     )
+
 
     # Clean Q2, Q4, Q5, Q6
     df['Q2'] = df['Q2'].apply(clean_Q2)
@@ -259,6 +267,7 @@ def clean_data(df):
     df['Q8'] = df['Q8'].fillna("Unknown")
 
     # Make dummies for Q5 (the "movie" column)
+    Q5_CATEGORIES = list(movie_genres.keys())
     df_genres = df['Q5'].str.get_dummies(sep=',')
     df_genres = df_genres.reindex(columns=Q5_CATEGORIES, fill_value=0)
     df = pd.concat([df, df_genres], axis=1)

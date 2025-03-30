@@ -1,0 +1,1071 @@
+id,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Label
+716549,3,6.0,"Week day lunch,At a party,Late night snack",5.0,Cloudy with a Chance of Meatballs,Coke ,Friends,1.0,Pizza
+606874,4,6.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Mamma Mia,Soda,"Siblings,Friends,Teachers",4.0,Pizza
+505318,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Cloudy with a chance of meatballs,Soda,"Siblings,Friends",1.0,Pizza
+605771,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,,Soda,"Siblings,Friends",-1.0,Pizza
+606929,3,3.0,Week day lunch,1.0,dragon,coke ,Friends,-1.0,Pizza
+626792,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Cloudy with a chance of meatballs,Coke,"Parents,Siblings,Friends",3.0,Pizza
+714863,3,10.0,"Weekend dinner,At a party",20.0,none,regular coke,Friends,-1.0,Pizza
+602526,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Spider Man 2,lemonade,"Parents,Siblings,Friends",-1.0,Pizza
+389328,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Goodfellas,Red Wine,"Siblings,Friends",2.0,Pizza
+620148,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Dead Silence,Sprite,"Friends,Strangers",2.0,Pizza
+387155,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,la la land,water,"Parents,Siblings,Friends,Strangers",1.0,Pizza
+614043,5,10.0,"Week day dinner,Weekend dinner,At a party,Late night snack",15.0,Ninja turtles ,Coke,"Siblings,Friends",-1.0,Pizza
+521125,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,High School Musical 3,Root beer,"Parents,Siblings,Friends,Teachers",1.0,Pizza
+627780,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Despicable Me,Coke,"Friends,Teachers",-1.0,Pizza
+492744,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Teenage Mutant Ninja Turtles,Soda,"Parents,Friends",1.0,Pizza
+601609,4,10.0,"Weekend dinner,At a party",6.0,Spiderman,Diet Coke,Friends,-1.0,Pizza
+602657,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Pizza,cola,"Friends,Teachers",-1.0,Pizza
+616945,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,ratatouille,coca cola,Teachers,2.0,Pizza
+630962,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Five Nights At Freddies,Coca Cola,"Friends,Teachers",-1.0,Pizza
+502799,2,8.0,"Weekend dinner,At a party",10.0,Back to the future,Ice tea,"Parents,Siblings,Friends",-1.0,Pizza
+605278,2,4.0,"Weekend dinner,At a party,Late night snack",4.0,Godfather,Coke,"Friends,Teachers,Strangers",1.0,Pizza
+388888,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Mystic Pizza,Coke,Friends,1.0,Pizza
+519548,3,5.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Spider man 2,Coke,"Parents,Siblings,Friends,Teachers",1.0,Pizza
+405521,4,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,futurama,coke,Friends,2.0,Pizza
+715795,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",13.0,Life of Pi,Hot chocolate,"Parents,Friends,Teachers",-1.0,Pizza
+625326,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Avengers,Soda,"Siblings,Friends,Teachers",1.0,Pizza
+634964,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Spider-man,Beer,"Parents,Friends",-1.0,Pizza
+722500,3,10.0,"Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Home Alone,coke,"Parents,Siblings,Friends,Teachers",2.0,Pizza
+618355,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,king kong,coke,"Friends,Teachers,Strangers",-1.0,Pizza
+611097,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Home Alone,coke,"Siblings,Friends",1.0,Pizza
+634328,2,5.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage Mutant Ninja Turtles ,Soda,"Parents,Siblings,Friends",-1.0,Pizza
+728522,3,6.0,"Week day dinner,Weekend dinner,At a party,Late night snack",12.0,Marvel Movies,Diet Pepsi,"Siblings,Friends,Teachers",3.0,Pizza
+718570,3,5.0,"Week day lunch,Week day dinner,At a party",15.0,,coke,"Friends,Strangers",-1.0,Pizza
+612478,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Grown ups,Diet coke,"Parents,Siblings,Friends",2.0,Pizza
+629710,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,deadpool,coke,"Parents,Siblings,Friends",1.0,Pizza
+603476,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,whiplash,coke,"Parents,Siblings,Friends",-1.0,Pizza
+600957,2,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Home alone,Water,Siblings,-1.0,Pizza
+633234,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Avengers,Coke,"Siblings,Friends,Teachers",-1.0,Pizza
+148179,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,,Cola,Friends,1.0,Pizza
+715845,2,9.0,"Weekend dinner,At a party,Late night snack",20.0,Cloudy with a Chance of Meatballs,Coke,Friends,-1.0,Pizza
+738409,3,4.0,At a party,3.0,stranger things,pepsi,"Teachers,Strangers",-1.0,Pizza
+612096,4,6.0,"Weekend dinner,At a party",4.99,Ratatouille,Sprite,"Parents,Friends,Teachers",3.0,Pizza
+605207,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",12.0,Teenage Mutant Ninja Turtles,Coke,Friends,-1.0,Pizza
+719554,3,3.0,"Week day lunch,Late night snack",5.0,,Juice,"Friends,Strangers",-1.0,Pizza
+627427,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",5.0,Air Bud,Soda,"Friends,Strangers",1.0,Pizza
+411315,4,7.0,"Week day lunch,At a party,Late night snack",6.0,Deadpool,coke,"Friends,Strangers",1.0,Pizza
+627798,3,8.0,"Week day lunch,Weekend lunch,At a party,Late night snack",6.0,Finding Nemo,Coca Cola,Friends,1.0,Pizza
+712093,4,10.0,"Week day lunch,Weekend lunch,At a party,Late night snack",15.0,Avengers Endgame,Coca Cola,"Teachers,Strangers",1.0,Pizza
+627488,1,10.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",5.0,Ratatouille,Soda,"Friends,Teachers",1.0,Pizza
+626493,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,My Cousin Vinny,San Pellegrino Sparkling Water,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+712898,4,8.0,"Weekend dinner,At a party,Late night snack",5.0,Garfield,Diet Coke,Parents,-1.0,Pizza
+631012,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Ratatouille,Coke,"Parents,Siblings,Friends",-1.0,Pizza
+601848,3,6.0,"Week day lunch,Weekend dinner,At a party,Late night snack",7.0,Ratatouille,Coke with lemon,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+612131,2,5.0,"Week day dinner,Weekend dinner,At a party,Late night snack",2.0,Home Alone,Coca-cola,"Parents,Siblings,Teachers",1.0,Pizza
+601122,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Home Alone,Coke,"Parents,Siblings,Friends,Strangers",-1.0,Pizza
+520828,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage Mutant Ninja Turtles,Diet Coke,"Siblings,Friends",2.0,Pizza
+514199,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,,Nestea,Friends,-1.0,Pizza
+389697,4,6.0,"Week day dinner,Weekend dinner,At a party,Late night snack",10.0,Comedy,Coke,"Friends,Teachers",1.0,Pizza
+612567,4,6.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",20.0,Star Wars,Coca cola,"Siblings,Friends",2.0,Pizza
+744468,3,3.0,"Week day lunch,At a party",3.0,Spider-Man,Coke,Friends,-1.0,Pizza
+519681,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,The Dark Knight,Diet Coke,Friends,-1.0,Pizza
+631125,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Home Alone 2: Lost in New York,Coke,"Parents,Siblings",-1.0,Pizza
+606119,2,6.5,"Week day lunch,Weekend lunch,At a party,Late night snack",5.0,Pulp fiction,Coke,Friends,-1.0,Pizza
+627252,3,8.0,"Week day dinner,Weekend dinner,At a party",6.0,Ninja Turtles,Water,"Siblings,Friends",-1.0,Pizza
+603838,2,5.0,"Weekend lunch,Weekend dinner",10.0,Teenage Mutant Ninja Turtles,Soda,Friends,2.0,Pizza
+719735,4,1.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Spiderman 2,Coke,Friends,1.0,Pizza
+608062,2,10.0,"Weekend dinner,At a party",2.5,Spider man  ,Coca cola ,"Friends,Teachers",-1.0,Pizza
+608704,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Home Alone,Coke,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+603793,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Home Alone,soda,"Friends,Strangers",2.0,Pizza
+524803,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.5,Breaking Bad,Soda,"Friends,Teachers",-1.0,Pizza
+629712,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",17.0,Interstellar,Coca Cola,Friends,1.0,Pizza
+627505,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Rush Hour,Pepsi,"Parents,Siblings",-1.0,Pizza
+607065,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Scooby Doo,Coke,"Siblings,Friends",1.0,Pizza
+500077,2,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Back to the Future 2,Diet coke,Teachers,-1.0,Pizza
+633350,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Ratatouille,Coke,"Friends,Teachers,Strangers",1.0,Pizza
+603664,2,8.0,"Week day lunch,At a party",16.0,Ratatouille,coke,Strangers,-1.0,Pizza
+840827,3,6.0,Week day dinner,25.0,Avengers,Coke,Friends,-1.0,Pizza
+604897,3,15.0,"Weekend lunch,At a party",25.0,Teenage Mutant Ninja Turtles,soda,"Friends,Teachers,Strangers",-1.0,Pizza
+525422,2,3.0,"Week day lunch,Weekend lunch,At a party,Late night snack",3.5,Spiderman,Soda,Friends,-1.0,Pizza
+622023,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Ninja Turtles,Coke Zero,Friends,-1.0,Pizza
+604770,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,spiderman,coke,Friends,1.0,Pizza
+608318,2,5.5,"Week day dinner,Weekend dinner,At a party,Late night snack",5.0,Ratatouille,wine,Friends,-1.0,Pizza
+745297,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Teenage Mutant Ninja Turtles,Coke,"Parents,Friends,Teachers",-1.0,Pizza
+627599,4,6.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Deadpool,Diet coke,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+520037,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Home Alone,Coke,"Friends,Teachers,Strangers",-1.0,Pizza
+632189,2,4.0,"Week day lunch,Weekend lunch,At a party,Late night snack",3.0,Spider man,Coca Cola,Friends,-1.0,Pizza
+228777,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.5,running man ,Coca Cola ,Teachers,-1.0,Pizza
+609278,3,6.0,"Week day lunch,Week day dinner,At a party,Late night snack",5.0,Ratatouille,Soda,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+607517,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",14.0,Recep Ivedik 2,Coke,"Siblings,Friends",1.0,Pizza
+714607,3,6.0,"Week day lunch,Weekend dinner,At a party,Late night snack",5.0,Venom,Coke,"Siblings,Friends",-1.0,Pizza
+497695,2,4.0,"Weekend dinner,At a party,Late night snack",5.0,Moneyball,Soda,Friends,1.0,Pizza
+608688,2,3.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.5,"Inside Out, Teenage Mutant Ninja Turtles",Soda,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+604386,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",20.0,Ratatouille,soft drink,"Parents,Friends",-1.0,Pizza
+715152,3,7.0,"Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,"hangover, or any teen party movies which features a lot of sweet stuff.","carbonated sweet drinks, such as cocacola, pepsi, etc",Friends,-1.0,Pizza
+604110,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Home Alone,Coca-Cola,"Parents,Friends",-1.0,Pizza
+629010,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Coraline,Nestea,"Parents,Friends,Teachers,Strangers",1.0,Pizza
+605254,2,5.0,"Week day dinner,At a party,Late night snack",4.0,,Diet Coke,Friends,2.0,Pizza
+628990,3,5.0,"Week day lunch,Week day dinner,At a party",6.0,Life if Pi,Soda,"Parents,Siblings,Friends,Teachers",1.0,Pizza
+625295,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,Home Alone,Pop,Friends,-1.0,Pizza
+630389,1,3.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Sam Raimi's Spider Man,Chocolate Milk,Friends,3.0,Pizza
+629025,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Teenage Mutant Ninja Turtles,Soda,"Friends,Strangers",-1.0,Pizza
+524441,3,6.0,"Week day lunch,Weekend lunch,At a party",10.0,Teenage Mutant Ninja Turtles,Ginger ale,"Siblings,Friends",-1.0,Pizza
+389109,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",18.0,Cloudy With a Chance of Meatballs,Canada Dry Ginger Ale,Friends,-1.0,Pizza
+631216,2,5.0,"Week day lunch,At a party",6.0,A Quiet Place 2,coke,Friends,2.0,Pizza
+738875,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Home alone,Milk,"Parents,Siblings,Friends,Teachers,Strangers",1.0,Pizza
+634669,1,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",2.29,Carry-On,Sprite,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+409940,3,6.0,"Week day dinner,At a party",8.0,spiderman,diet coke,"Parents,Friends",2.0,Pizza
+399605,2,5.0,"Week day lunch,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage Mutant Ninja Turtles,coke,"Parents,Friends",-1.0,Pizza
+721831,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Home Alone,Coke,"Parents,Siblings,Friends",-1.0,Pizza
+835223,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,Set it up,coke,"Friends,Strangers",2.0,Pizza
+712938,3,5.0,"Week day dinner,Weekend dinner",15.0,Green Book,coke,Friends,-1.0,Pizza
+289440,3,5.0,"Week day lunch,At a party,Late night snack",4.0,Teenage Mutant Ninja Turtles,coke,"Friends,Strangers",2.0,Pizza
+714503,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,"relaxing, comedy",cola,Friends,4.0,Pizza
+714893,2,5.0,"Week day lunch,Weekend lunch,At a party",5.0,Home Alone 2,Coke,"Siblings,Friends",2.0,Pizza
+601094,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.5,teenage mutant ninja turtles,soda,"Siblings,Friends",-1.0,Pizza
+629844,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Ratatouille,Orange juice,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+626482,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,The Godfather,Pop,Friends,-1.0,Pizza
+609257,2,5.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",6.0,High School Musical ,Rootbeer,"Siblings,Friends,Teachers",-1.0,Pizza
+717921,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,Zootopia,Lemonade,"Friends,Teachers",1.0,Pizza
+181851,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,,pops,Friends,3.0,Pizza
+520861,3,4.0,"Week day lunch,Weekend lunch,At a party,Late night snack",12.0,ratatouille,Soda,Friends,-1.0,Pizza
+517019,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,30 minutes or less,pop,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+611716,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,Home alone,coke,"Parents,Siblings",-1.0,Pizza
+193195,3,5.0,"Weekend dinner,At a party,Late night snack",5.0,21 Jump Street,Coca Cola,"Friends,Teachers",1.0,Pizza
+627530,2,7.0,"Week day lunch,Week day dinner,Weekend dinner,At a party",10.0,Free Guy,Coca-Cola,Friends,1.0,Pizza
+625315,2,5.5,"Week day lunch,Week day dinner,At a party,Late night snack",7.0,Home Alone,Soft drink,"Parents,Siblings,Friends,Teachers,Strangers",1.0,Pizza
+715806,4,10.0,"Week day lunch,Weekend dinner,At a party",7.0,Soul,coke,"Parents,Siblings,Friends,Teachers",-1.0,Pizza
+720045,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,The Godfather,Water,"Friends,Teachers",3.0,Pizza
+713585,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",30.0,Idk,Soda,"Friends,Teachers",-1.0,Pizza
+611188,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",7.0,Five Nights at Freddy’s,Ginger Ale,"Friends,Teachers",-1.0,Pizza
+606726,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",16.0,Life is Beautiful,Orange Juice,"Friends,Strangers",-1.0,Pizza
+634825,3,7.0,"Weekend dinner,At a party",5.0,Cloudy with a chance of meatballs,Soda,"Parents,Friends,Teachers",-1.0,Pizza
+613409,4,8.0,"Weekend dinner,At a party,Late night snack",8.0,The wicked,Coke-Cola,Friends,2.0,Pizza
+633224,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",2.5,Home Alone,Coca Cola,Friends,-1.0,Pizza
+738850,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Five Nights at Freddy's,Coca Cola,"Parents,Siblings,Teachers",-1.0,Pizza
+13183,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Harold & Kumar Go to White Castle,ice tea,"Parents,Friends",-1.0,Pizza
+627169,2,15.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",20.0,Teenage Mutant Ninja Turtles,Coke,"Parents,Friends",2.0,Pizza
+229041,3,5.0,"Week day lunch,Weekend lunch,At a party",5.0,home alone,soda,"Parents,Siblings,Friends",-1.0,Pizza
+409723,2,11.0,"Week day lunch,At a party,Late night snack",7.0,Home alone ,Coke,"Parents,Siblings,Teachers",-1.0,Pizza
+630949,4,7.0,"Weekend lunch,Weekend dinner,At a party",10.0,Lord of the Rings,Soda,"Siblings,Friends",-1.0,Pizza
+310438,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Home Alone,Coke,"Siblings,Friends,Teachers",-1.0,Pizza
+627430,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Home Alone,Coke,"Siblings,Friends,Strangers",1.0,Pizza
+526510,2,4.0,At a party,6.0,,cola,Strangers,-1.0,Pizza
+390823,3,4.0,"Week day dinner,Weekend dinner,At a party,Late night snack",5.0,The Hangover,Coke,Friends,1.0,Pizza
+712143,3,6.0,"Week day lunch,Week day dinner,At a party",15.0,Little Italy,Cola,Parents,1.0,Pizza
+612538,4,6.0,"Week day lunch,Weekend dinner,At a party,Late night snack",3.0,Toy Story,Coca Cola,"Friends,Teachers",-1.0,Pizza
+627539,2,4.0,"Week day lunch,Weekend lunch,At a party",5.0,The Mario Movie,Coca Cola,"Siblings,Friends",2.0,Pizza
+740568,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Little Italy,Coke,"Friends,Teachers,Strangers",-1.0,Pizza
+406863,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage Mutant Ninja Turtles,coke,"Friends,Teachers",-1.0,Pizza
+628077,2,10.0,"Week day lunch,Weekend lunch,At a party,Late night snack",5.0,Breaking Bad,Soda ,"Parents,Siblings,Friends,Teachers,Strangers",-1.0,Pizza
+601693,2,6.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Mystic Pizza,Diet Coke,"Siblings,Friends",-1.0,Pizza
+517096,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Home Alone,Coca Cola,"Siblings,Friends,Teachers",-1.0,Pizza
+606821,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Back to the Future,Sprite,"Siblings,Friends,Strangers",-1.0,Pizza
+455047,3,4.0,"Week day lunch,Week day dinner,Weekend dinner,At a party",6.0,,coke,Friends,2.0,Pizza
+625576,3,10.0,"Week day lunch,Week day dinner,At a party,Late night snack",5.0,Liquorice Pizza,Water,"Siblings,Friends,Teachers",1.0,Pizza
+716549,4,8.0,"Week day lunch,Week day dinner,At a party,Late night snack",9.0,The Avengers,Hot water ,Teachers,3.0,Shawarma
+727333,1,3.0,"Week day lunch,Weekend lunch",8.0,action movie,water,Siblings,1.0,Shawarma
+606874,3,10.0,"Week day lunch,Week day dinner,Late night snack",10.0,The Dictator,Juice,Friends,2.0,Shawarma
+505318,4,7.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",8.0,Superbad,Ayran,"Parents,Siblings",2.0,Shawarma
+605771,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,,Water,Friends,1.0,Shawarma
+626792,2,13.0,"Week day lunch,Weekend lunch",13.0,anjaana anjaani,water,"Friends,Teachers",3.0,Shawarma
+714863,2,10.0,"Week day lunch,Weekend lunch,Late night snack",10.0,none,juice,Strangers,-1.0,Shawarma
+602526,4,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",13.0,Hawkeye,orange juice,"Siblings,Friends",1.0,Shawarma
+389328,3,5.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,Transformers,Beer,"Siblings,Friends,Strangers",3.0,Shawarma
+289931,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.0,Aladdin,Pop like Coke,Friends,-1.0,Shawarma
+620148,1,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,The Invisible Guest,Water,Friends,1.0,Shawarma
+387155,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Squid game,water,"Siblings,Friends",2.0,Shawarma
+614043,3,6.5,"Week day lunch,Week day dinner,Weekend lunch",8.0,Avengers 1,Ayran ,"Parents,Friends",2.0,Shawarma
+521125,5,8.0,"Week day lunch,Weekend lunch",9.0,The Avengers,Root beer,"Siblings,Friends",-1.0,Shawarma
+627780,4,5.0,Week day lunch,10.0,1001 Nights,Water,Strangers,1.0,Shawarma
+492744,3,8.0,"Week day lunch,Late night snack",14.0,The Avengers,Soda,Friends,3.0,Shawarma
+601609,3,8.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,Fast Furious,Nestea,Parents,2.0,Shawarma
+602657,2,10.0,"Week day lunch,Weekend lunch",10.0,The Avengers,milk tea,Friends,1.0,Shawarma
+724326,1,7.0,"Week day lunch,Weekend lunch",12.0,"""Star Wars: Episode V - The Empire Strikes Back""",Water,Friends,-1.0,Shawarma
+616945,3,5.0,"Week day lunch,Weekend lunch",8.0,ratatouille,sprite,Friends,2.0,Shawarma
+630962,3,5.0,"Week day lunch,Weekend lunch,At a party,Late night snack",7.5,Spiderman Into The Spiderverse,Water,"Friends,Strangers",1.0,Shawarma
+502799,1,6.0,"Week day lunch,Weekend lunch",6.0,Slumdog millionaire ,Ice tea,Friends,1.0,Shawarma
+605278,4,4.0,"Week day lunch,At a party,Late night snack",7.0,Cleopatra,Sprite,Friends,2.0,Shawarma
+388888,4,10.0,"Week day lunch,Weekend lunch",12.0,The Avengers,iced tea,"Friends,Strangers",2.0,Shawarma
+519548,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,The Avengers (2012),Water,"Friends,Strangers",2.0,Shawarma
+405521,2,3.0,"Week day lunch,Week day dinner",15.0,,mango juice,"Friends,Strangers",2.0,Shawarma
+607410,3,5.0,"Week day lunch,Weekend lunch,At a party,Late night snack",8.0,The Kite Runner,Coca Cola Zero,"Parents,Friends",2.0,Shawarma
+715795,3,6.0,"Week day lunch,Weekend lunch,Late night snack",8.0,2012,Orange juice,"Parents,Friends,Strangers",1.0,Shawarma
+625326,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",7.0,The Boys,Lassi,"Friends,Strangers",1.0,Shawarma
+634964,4,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,Coke,Friends,1.0,Shawarma
+722500,2,4.0,"Week day lunch,Week day dinner",7.0,The Avengers ,orange juice,Strangers,2.0,Shawarma
+618355,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",10.0,dictator,coke,"Friends,Strangers",2.0,Shawarma
+611097,2,6.0,"Week day lunch,Week day dinner",6.0,The Avengers,coke,Friends,2.0,Shawarma
+634328,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Avengers,Soda,"Siblings,Friends",1.0,Shawarma
+607160,1,5.0,Week day lunch,8.0,Dangal,Orange juice,Strangers,2.0,Shawarma
+728522,3,10.0,Week day lunch,8.0,Kungfu Panda,Nestea,"Friends,Strangers",3.0,Shawarma
+718570,2,10.0,Week day lunch,10.0,,coke,"Friends,Teachers",1.0,Shawarma
+601950,4,4.0,"Week day lunch,Week day dinner,At a party",7.0,black hawk down,coke,"Friends,Strangers",1.0,Shawarma
+612478,3,8.0,"Week day lunch,Weekend lunch,Late night snack",14.0,Avengers,Diet coke,Friends,2.0,Shawarma
+629710,3,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",16.0,The Avengers ,Apple juice,"Parents,Siblings,Friends",1.0,Shawarma
+603476,3,9.0,"Week day lunch,Weekend lunch",10.0,Cloudy with a Chance of Meatballs,coke,"Parents,Siblings,Friends",2.0,Shawarma
+600957,4,11.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",16.0,How to lose a guy in 10 days,Water,Parents,1.0,Shawarma
+722431,2,7.0,Week day lunch,10.0,The Avengers.,Nestea.,Teachers,-1.0,Shawarma
+633234,4,5.0,"Week day lunch,Weekend lunch,Late night snack",8.0,Babylon,Iced Tea,Friends,3.0,Shawarma
+148179,3,10.0,"Week day lunch,Weekend lunch,At a party",15.0,,Cola,Friends,2.0,Shawarma
+715845,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Dangal,Orange juice,Strangers,1.0,Shawarma
+606552,3,6.0,"Week day lunch,Week day dinner,Late night snack",15.0,Lord of the rings,Nestea,"Parents,Siblings,Strangers",1.0,Shawarma
+738409,3,8.0,Week day lunch,10.0,,Water,Friends,1.0,Shawarma
+612096,3,7.0,"Week day lunch,Late night snack",6.0,Aladdin,Coke,"Friends,Strangers",3.0,Shawarma
+605207,4,5.0,"Week day lunch,Weekend lunch",10.0,Avengers,Water,Parents,1.0,Shawarma
+719554,3,3.0,Week day lunch,6.0,,,Strangers,1.0,Shawarma
+627427,5,6.0,"Week day lunch,Weekend lunch,Late night snack",15.0,Prince of Egypt,Water,Friends,2.0,Shawarma
+411315,3,5.0,"Week day lunch,Late night snack",6.0,Borat,coke,"Friends,Teachers",3.0,Shawarma
+627798,4,10.0,"Week day lunch,Weekend lunch",10.0,The Avengers,Sprite,"Friends,Strangers",-1.0,Shawarma
+712093,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",10.0,Harold and Kumar,Coca Cola,"Parents,Friends",2.0,Shawarma
+627488,2,12.0,"Week day lunch,Weekend lunch",10.0,Gossip Girl,Soda,"Friends,Strangers",2.0,Shawarma
+626493,2,7.0,"Week day lunch,Weekend lunch,Late night snack",10.0,The Avengers,Apple Juice,"Friends,Strangers",2.0,Shawarma
+712898,3,9.0,"Week day lunch,Week day dinner,Weekend lunch",7.0,The Avengers,Nestea,Friends,1.0,Shawarma
+631012,3,11.0,"Week day lunch,Weekend dinner",11.0,Khabi Khushi Khabi Gham,Diet Coke,"Siblings,Friends",2.0,Shawarma
+601848,2,5.0,Week day lunch,9.0,Mission: Impossible – Dead Reckoning Part One,Iced lemon tea,Strangers,-1.0,Shawarma
+612131,2,7.0,"Week day lunch,Weekend lunch",2.0,Avengers Endgame,Mineral water,Friends,2.0,Shawarma
+601122,4,12.0,"Week day lunch,Weekend lunch,Late night snack",10.0,The Avengers,Coke,"Parents,Friends",2.0,Shawarma
+520828,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",10.0,The Avengers,Water,Friends,2.0,Shawarma
+514199,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",7.0,,Water,"Teachers,Strangers",1.0,Shawarma
+389697,2,10.0,"Week day lunch,Weekend lunch",8.0,,"Water
+
+Fruit juice/smoothie
+
+Sparkling water
+
+Soft drinks",Friends,1.0,Shawarma
+612567,2,4.0,Week day lunch,6.0,Dune,Juice,Strangers,-1.0,Shawarma
+744468,3,5.0,"Week day lunch,Week day dinner,Weekend lunch",5.0,Avengers,Orange Fanta,"Parents,Siblings",-1.0,Shawarma
+519681,4,20.0,"Week day lunch,Weekend lunch",10.0,Parasite,Diet Coke,Strangers,2.0,Shawarma
+631125,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,The Avengers,Coke,Parents,2.0,Shawarma
+606119,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",13.0,Borat,Coke,"Friends,Strangers",1.0,Shawarma
+627252,4,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,None come to mind,Water,"Friends,Strangers",2.0,Shawarma
+603838,3,10.0,"Week day lunch,Week day dinner",6.0,The Avengers,Lemonade,Friends,1.0,Shawarma
+719735,5,1.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,,Water,"Friends,Teachers,Strangers",3.0,Shawarma
+608062,3,7.0,Week day lunch,12.0,Batman the dark knight ,Mango juice,Friends,2.0,Shawarma
+608704,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,Coke,Friends,3.0,Shawarma
+520383,3,6.0,"Week day lunch,Week day dinner,Weekend lunch",11.0,I don't think of a movie when thinking of this food item,Water,"Friends,Strangers",3.0,Shawarma
+603793,2,10.0,"Week day lunch,Weekend lunch",20.0,the avengers,water,"Parents,Friends,Teachers",3.0,Shawarma
+629712,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",14.0,Taxi Driver,Nestea,"Siblings,Friends",1.0,Shawarma
+627505,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",8.0,The Dictator,Water,Friends,1.0,Shawarma
+607065,3,7.0,"Week day lunch,Week day dinner,Weekend lunch",12.0,Avengers,Iced Tea,"Parents,Friends,Strangers",2.0,Shawarma
+500077,3,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,none,Coke Zero,"Parents,Siblings,Friends",2.0,Shawarma
+633350,3,12.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",11.5,The Avengers,"Gingerale
+
+ ","Siblings,Friends",1.0,Shawarma
+603664,2,8.0,Week day lunch,16.0,The Avengers,water,Friends,-1.0,Shawarma
+840827,4,4.0,Week day lunch,10.0,Comedy movie,Water,Parents,-1.0,Shawarma
+604897,2,6.0,"Week day lunch,Weekend lunch",13.0,The Avengers,Lemonade,Friends,3.0,Shawarma
+525422,4,6.0,"Week day lunch,Week day dinner,Weekend lunch",8.0,Avengers,Water,"Parents,Siblings",1.0,Shawarma
+622023,5,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Avengers,Coke Zero,Friends,3.0,Shawarma
+604770,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",11.0,avengers,no drink,"Parents,Siblings,Friends",-1.0,Shawarma
+745297,2,6.0,"Week day lunch,Weekend lunch",9.0,Borat,Coke,"Friends,Strangers",3.0,Shawarma
+627599,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Avengers,Nestea,"Siblings,Friends",-1.0,Shawarma
+520037,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Avengers,Pepsi,Friends,2.0,Shawarma
+632189,3,6.0,"Week day lunch,Weekend lunch,Late night snack",5.99,Spider man spider verse,Water,Strangers,-1.0,Shawarma
+228777,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,Star Wars,sprite ,Strangers,1.0,Shawarma
+609278,4,8.0,Week day lunch,12.0,Aladdin,Sugarcane juice,Friends,-1.0,Shawarma
+607517,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",14.0,Avengers,Fruit Juice,Friends,2.0,Shawarma
+714607,3,5.0,Week day lunch,5.0,Alladin,Peach Green Tea,"Friends,Teachers",1.0,Shawarma
+497695,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Gladiator,Water,"Friends,Strangers",2.0,Shawarma
+608688,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,Soda,"Parents,Siblings,Friends",1.0,Shawarma
+604386,2,4.0,"Week day lunch,Weekend lunch",10.0,Avengers,water,Strangers,1.0,Shawarma
+628559,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",8.0,Iron Man,Soda,Strangers,1.0,Shawarma
+715152,2,9.0,"Week day dinner,Weekend dinner,Late night snack",15.0,Any bollywood movie,I usually like water,Friends,-1.0,Shawarma
+604110,3,4.0,"Week day lunch,Week day dinner,Late night snack",10.0,The Avengers,Sprite,Friends,-1.0,Shawarma
+629010,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",9.0,The Avengers,Water,"Parents,Strangers",2.0,Shawarma
+605254,3,10.0,"Week day lunch,Weekend lunch,Late night snack",9.0,,Diet Coke,Friends,1.0,Shawarma
+628990,3,6.0,"Week day lunch,Weekend lunch,At a party",11.0,,Soda,"Parents,Siblings",-1.0,Shawarma
+625295,4,7.0,"Week day lunch,Weekend lunch",6.0,None in particular,Pop,Friends,-1.0,Shawarma
+635533,1,5.0,Week day lunch,10.0,Son of Babylon,Coke,Strangers,2.0,Shawarma
+630389,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",17.0,Avengers 1,Coke,Friends,2.0,Shawarma
+629792,2,7.0,"Week day lunch,Weekend lunch",10.0,avengers,pop,"Parents,Friends",1.0,Shawarma
+629025,3,7.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,The Avengers,Pepsi,Strangers,2.0,Shawarma
+524441,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Avengers,Pepsi,Strangers,1.0,Shawarma
+389109,2,5.0,Week day lunch,20.0,"Cloudy With a Chance of Meatballs again? (Shawarmas don't appear in that though, but hey it's food)","Ayran Yogurt (actually I don't drink this after having tried it twice, but if we're talking about what I'd canonically pair it with). If we're talking about what I'd actually drink and pair it with, then just water",Strangers,-1.0,Shawarma
+631216,3,8.0,Week day lunch,10.0,Avengers,lemonade,Friends,1.0,Shawarma
+738875,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Deadpool & Wolverine,Water,"Siblings,Friends,Strangers",2.0,Shawarma
+634669,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",16.99,The Avengers,Wine,Strangers,2.0,Shawarma
+409940,2,5.0,Week day lunch,10.0,avengers,diet coke,Friends,1.0,Shawarma
+399605,3,6.0,"Week day lunch,Weekend lunch",7.0,avengers,coke,Friends,-1.0,Shawarma
+721831,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",11.0,Bad Boys,Fanta,Friends,3.0,Shawarma
+835223,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,-,Coke,Friends,3.0,Shawarma
+712938,4,10.0,"Week day lunch,Weekend lunch,At a party",10.0,3 Idiots,Fanta,Friends,3.0,Shawarma
+289440,4,5.0,"Week day lunch,Week day dinner",7.0,The Avengers  ,coke,"Friends,Strangers",2.0,Shawarma
+714503,2,3.0,"Week day lunch,Weekend lunch,Late night snack",10.0,documenary,cola,"Siblings,Friends,Strangers",1.0,Shawarma
+714893,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Avengers,Coke,Friends,2.0,Shawarma
+601094,3,12.0,"Week day lunch,Weekend dinner,Late night snack",7.5,The Avengers,ice tea,Friends,1.0,Shawarma
+618150,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",9.0,,Diet Coke,"Parents,Siblings,Strangers",3.0,Shawarma
+607944,5,7.0,"Week day lunch,Week day dinner",10.0,chef,Juice,Friends,2.0,Shawarma
+629844,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",7.0,Minions,Orange juice,"Friends,Strangers",1.0,Shawarma
+626482,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",9.0,The Big Sick,Sprite,"Parents,Siblings",1.0,Shawarma
+609257,4,10.0,"Week day dinner,Weekend dinner,Late night snack",14.0,Jurassic Park,Water,"Friends,Strangers",1.0,Shawarma
+717921,4,20.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Wicked,Sparkling water,Friends,2.0,Shawarma
+181851,3,7.0,Week day lunch,8.0,,water,"Friends,Strangers",3.0,Shawarma
+743828,5,8.0,"Week day lunch,Weekend lunch,Late night snack",12.0,Avengers,Mango Juice,"Siblings,Friends,Strangers",3.0,Shawarma
+520861,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,,Soda,Strangers,2.0,Shawarma
+517019,4,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",11.0,Avengers,pop,Friends,2.0,Shawarma
+611716,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,The Avenger,coke,Siblings,1.0,Shawarma
+193195,4,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",15.0,Avengers,Soda,"Friends,Strangers",3.0,Shawarma
+627530,4,8.0,"Week day lunch,Weekend lunch,At a party",10.0,Arcane,Ginger Ale,Friends,4.0,Shawarma
+626479,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,Avengers because of Iron Man asking everyone to get shawarma after the fight,Some type of soda,Friends,2.0,Shawarma
+625315,3,7.5,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",12.0,The Avengers,Soft drink,"Parents,Siblings,Friends",3.0,Shawarma
+715806,3,5.0,"Week day lunch,Weekend lunch,Late night snack",10.0,Aladdin,sprite,Strangers,-1.0,Shawarma
+720045,2,8.0,"Week day lunch,Week day dinner",6.0,Avengers,Water,Strangers,3.0,Shawarma
+713585,3,5.0,Week day lunch,10.0,Idk,Soda,"Friends,Strangers",2.0,Shawarma
+611188,4,6.0,Week day lunch,7.0,The Mummy,Water,"Friends,Strangers",2.0,Shawarma
+606726,2,7.0,"Week day lunch,Late night snack",8.0,The Kite Runner,Ayran,"Siblings,Friends",1.0,Shawarma
+634825,4,10.0,Week day lunch,10.0,Marvel Avengers,Soda,Friends,3.0,Shawarma
+613409,5,6.0,Week day lunch,14.0,Forest Gump,Coke-Cola,Strangers,-1.0,Shawarma
+633224,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,John Wick,Water,"Friends,Strangers",1.0,Shawarma
+738850,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,The Avengers,Water,"Parents,Strangers",3.0,Shawarma
+13183,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Aladdin,diet coke,Strangers,1.0,Shawarma
+627169,1,8.0,"Week day lunch,Weekend lunch,Late night snack",8.0,Ratatouille,Sprite,"Friends,Teachers",1.0,Shawarma
+496344,5,3.0,Week day lunch,8.0,Avengers,Jarritos,"Siblings,Friends",1.0,Shawarma
+409723,3,15.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,The Avengers,Lassi,Friends,1.0,Shawarma
+630949,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",7.0,Star Wars,Soda,"Parents,Siblings,Friends",1.0,Shawarma
+310438,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers ,Water,"Parents,Siblings",3.0,Shawarma
+627430,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",8.0,The avengers,Water,"Parents,Siblings",3.0,Shawarma
+526510,3,8.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,,water,"Friends,Teachers",2.0,Shawarma
+390823,2,5.0,"Week day lunch,Weekend lunch",7.0,Scott Pilgrim,Nestea,"Friends,Strangers",2.0,Shawarma
+712143,2,8.0,"Weekend dinner,Late night snack",18.0,"Shawarma Legend
+---------------",cola,Friends,2.0,Shawarma
+612538,4,10.0,"Week day lunch,Late night snack",5.0,Avengers,water,"Friends,Teachers",3.0,Shawarma
+627539,4,6.0,"Week day lunch,Weekend lunch",10.0,Rush Hour,Sprite,Teachers,1.0,Shawarma
+740568,2,6.0,"Week day lunch,Weekend lunch",8.0,Fight Club,Water,Friends,1.0,Shawarma
+712702,4,4.0,Week day dinner,10.0,Shawarma Bowl,pineapple juice,Friends,1.0,Shawarma
+406863,4,8.0,"Week day lunch,Weekend lunch",10.0,Lion King,Coke,Friends,2.0,Shawarma
+726962,2,8.0,"Week day dinner,Weekend dinner",20.0,Captain of America,Water,Friends,1.0,Shawarma
+628077,4,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.0,The Avengers,Water,"Friends,Strangers",2.0,Shawarma
+601693,3,7.0,"Week day lunch,Weekend lunch",7.0,The Avengers,Water,"Friends,Strangers",1.0,Shawarma
+606821,2,8.0,"Week day lunch,Weekend lunch,Late night snack",5.0,Avengers,Water,Friends,2.0,Shawarma
+455047,2,4.0,"Week day lunch,Weekend lunch",8.0,,"juice, water or coke",Friends,2.0,Shawarma
+625576,4,12.0,"Week day lunch,Late night snack",10.0,The Avengers,Water,"Siblings,Friends,Strangers",2.0,Shawarma
+716549,2,5.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Spirited Away,Miso soup,Friends,1.0,Sushi
+606874,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Johnny English,Water,Parents,-1.0,Sushi
+505318,5,6.5,"Week day lunch,Weekend lunch,Weekend dinner",8.0,Karate Kid,Water,"Siblings,Friends",2.0,Sushi
+605771,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,,,"Siblings,Friends",-1.0,Sushi
+626792,4,10.0,Week day lunch,12.0,Kung fu panda,tea,"Friends,Strangers",2.0,Sushi
+714863,2,4.0,"Week day lunch,Weekend lunch,Late night snack",20.0,none,tea,Siblings,-1.0,Sushi
+602526,5,5.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",9.0,Spirited Away,soju,"Parents,Siblings,Friends",1.0,Sushi
+389328,4,4.0,"Week day lunch,Week day dinner,Weekend lunch",15.0,Kill Bill,Sake,Teachers,2.0,Sushi
+289931,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Finding Nemo,green tea,"Parents,Friends",-1.0,Sushi
+620148,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,Your Name,Tea,"Parents,Friends",2.0,Sushi
+387155,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",16.0,Once Upon a Time... in Hollywood,water,"Parents,Siblings,Friends,Strangers",-1.0,Sushi
+614043,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",23.0,Cars,Green tea,"Friends,Strangers",-1.0,Sushi
+521125,3,4.0,"Week day lunch,Weekend lunch,Weekend dinner,Late night snack",5.0,Shark Tale,Root beer,"Siblings,Friends",-1.0,Sushi
+627780,3,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",50.0,Bullet Train ,Sake,"Parents,Friends",-1.0,Sushi
+492744,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Tokyo Story,Lemon water,"Siblings,Friends",1.0,Sushi
+601609,5,10.0,"Week day lunch,Weekend lunch",15.0,Harry Potter,Diet Coke,"Parents,Friends",-1.0,Sushi
+602657,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",20.0,Jiro Dreams of Sushi,miso soup,"Parents,Friends",2.0,Sushi
+616945,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",5.0,rush hour,water,Siblings,-1.0,Sushi
+630962,2,2.0,"Week day lunch,Weekend lunch,At a party",18.0,Jaws,Water,"Friends,Strangers",-1.0,Sushi
+502799,1,4.0,"Week day dinner,Weekend dinner",10.0,Rush hour,Water,Friends,-1.0,Sushi
+605278,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The End of Evangelion,Tea,"Parents,Friends",-1.0,Sushi
+388888,5,5.0,"Week day dinner,Weekend dinner,At a party",20.0,Midnight Diner,Barley tea,"Parents,Friends,Teachers",-1.0,Sushi
+519548,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Spirited Away,Sake,"Siblings,Friends,Strangers",-1.0,Sushi
+405521,5,2.0,"Week day dinner,Weekend dinner",18.0,anime,beer,"Parents,Siblings",-1.0,Sushi
+607410,2,3.0,At a party,16.0,Crazy Rich Asians ,Water,Strangers,-1.0,Sushi
+715795,3,6.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",10.0,The Perfect Storm,Iced fruit punch juice,"Parents,Strangers",-1.0,Sushi
+625326,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",1.0,Anime,Soup,"Parents,Siblings,Friends",-1.0,Sushi
+634964,2,2.0,"Weekend lunch,Weekend dinner",20.0,John Wick,Water,Friends,-1.0,Sushi
+722500,2,3.0,"Week day lunch,Week day dinner,At a party",1.0,Jiro Dreams of Sushi,apple juice,"Parents,Friends,Teachers",-1.0,Sushi
+618355,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",8.0,weathering with you,hot tea,Friends,-1.0,Sushi
+611097,2,5.0,"Weekend dinner,Late night snack",10.0,Kill Bill,coke,Friends,2.0,Sushi
+634328,5,15.0,"Week day dinner,Weekend dinner,At a party",15.0,Findig Nemo,Green Tea,Strangers,1.0,Sushi
+607160,4,7.0,"Week day dinner,Weekend dinner,At a party",15.0,kill bill,sake,"Siblings,Friends",2.0,Sushi
+728522,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Eternal Sunshine of the Spotless Mind,Hot Tea,"Parents,Friends",-1.0,Sushi
+718570,4,5.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,,juice/wine,"Parents,Friends",2.0,Sushi
+714598,2,3.0,"Weekend dinner,At a party",35.0,Cars 2,Hot tea,"Parents,Siblings,Friends",-1.0,Sushi
+601950,3,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Jiro dreams of Sushi,tea,"Parents,Friends",-1.0,Sushi
+612478,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",14.0,My neighbour Totoro,Beer,"Parents,Siblings,Friends",-1.0,Sushi
+629710,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",2.0,Johnny English,Water,"Parents,Siblings,Friends",2.0,Sushi
+603476,5,4.0,"Week day dinner,Weekend dinner,At a party",20.0,Oldboy,water,"Parents,Siblings",-1.0,Sushi
+600957,5,8.0,"Week day dinner,Weekend lunch,Weekend dinner",12.0,The Proposal,Water,Friends,-1.0,Sushi
+633234,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Oldboy,Water,"Siblings,Friends",1.0,Sushi
+148179,5,5.0,"Week day dinner,Weekend dinner,At a party",30.0,,Tea,"Parents,Friends",-1.0,Sushi
+715845,3,7.0,"Week day dinner,Weekend dinner",17.0,Spirited Away,Green tea,"Friends,Strangers",-1.0,Sushi
+606552,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Gone Girl,Water,"Friends,Strangers",-1.0,Sushi
+738409,2,3.0,"Week day dinner,Weekend dinner",15.0,My Hero Academia,milk,Parents,-1.0,Sushi
+612096,5,5.0,"Weekend lunch,Weekend dinner,At a party",7.5,Food Wars!,Green tea,"Friends,Strangers",2.0,Sushi
+605207,5,4.0,"Week day dinner,Weekend dinner",10.0,Bullet Train,Water,Siblings,-1.0,Sushi
+719554,5,1.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,"深夜食堂
+
+ナミヤ雑貨店の奇蹟",Miso soup,"Parents,Strangers",-1.0,Sushi
+627427,3,2.0,"Week day dinner,Weekend dinner,At a party",30.0,Liz and the Blue Bird,Green tea,"Parents,Siblings",-1.0,Sushi
+411315,4,5.0,"Week day dinner,Weekend dinner,At a party",9.0,spirited away,tea,"Parents,Siblings",-1.0,Sushi
+627798,5,4.0,"Week day dinner,Weekend dinner",11.0,Frozen,Tea,"Parents,Siblings",-1.0,Sushi
+712093,4,5.0,"Week day dinner,Weekend dinner",15.0,Seven Samurai,Water,Strangers,-1.0,Sushi
+627488,3,7.0,"Week day dinner,Weekend lunch,Weekend dinner",15.0,Barbie,Water,"Parents,Friends",1.0,Sushi
+626493,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Cars 2,Water,"Friends,Strangers",-1.0,Sushi
+712898,2,4.0,"Week day dinner,Weekend lunch,Weekend dinner",20.0,Howl's Moving Castle,green tea,"Parents,Friends",-1.0,Sushi
+631012,5,9.0,At a party,13.0,Kung Fu Panda,Water,Strangers,-1.0,Sushi
+601848,2,5.0,"Week day lunch,Weekend lunch,Weekend dinner",13.0,John Wick 4,Green tea,"Parents,Siblings,Friends",-1.0,Sushi
+612131,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,The Wolverine,Green tea / ocha,"Parents,Siblings,Friends",1.0,Sushi
+601122,4,5.0,"Week day dinner,Weekend lunch,Weekend dinner",7.0,The Wolverine,Sake,"Friends,Teachers",-1.0,Sushi
+520828,4,3.0,"Week day lunch,Week day dinner,Weekend dinner",12.0,Isle of Dogs,Tea,"Parents,Friends",-1.0,Sushi
+514199,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,,Tea,"Parents,Friends",1.0,Sushi
+389697,1,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Ghibli movies,"Green tea
+
+Water","Parents,Siblings,Friends",-1.0,Sushi
+612567,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",5.0,Your Name,Matcha,Friends,-1.0,Sushi
+744468,2,3.0,"Week day lunch,Weekend dinner",2.0,Bladerunner,Water,Strangers,-1.0,Sushi
+519681,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",5.0,Everything Everywhere All At Once,Water,"Parents,Friends",-1.0,Sushi
+631125,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Monsters Inc.,,Strangers,-1.0,Sushi
+606119,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",1.0,Isle of Dogs,Tea,"Parents,Siblings",1.0,Sushi
+627252,5,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Monsters Inc.,Water,"Parents,Teachers",1.0,Sushi
+603838,5,8.0,"Week day lunch,Week day dinner",20.0,Jiro Dreams of Sush,Green Tea,Friends,-1.0,Sushi
+719735,5,1.0,"Week day dinner,Weekend lunch,Weekend dinner",15.0,Jiro Dreams of Sushi,Hot or Iced Tea,"Parents,Siblings,Friends",-1.0,Sushi
+608062,5,5.0,"Week day dinner,Weekend dinner",15.0,Parasite,Water ,Friends,-1.0,Sushi
+608704,5,5.0,"Week day dinner,Weekend dinner,At a party",20.0,Finding Nemo,Wine,"Parents,Friends",-1.0,Sushi
+603793,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,doraemon,ocha,"Parents,Siblings",1.0,Sushi
+524803,2,2.0,"Weekend lunch,Weekend dinner",5.0,Tokyo Story (1953),Green tea,Strangers,-1.0,Sushi
+629712,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Parasite,Water,"Parents,Siblings,Friends",-1.0,Sushi
+627505,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",11.0,Inception,Water,Friends,2.0,Sushi
+607065,4,4.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",20.0,The Karate Kid,Wine,"Parents,Friends,Strangers",1.0,Sushi
+500077,4,20.0,At a party,13.0,none,water,Strangers,2.0,Sushi
+633350,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,Your Name,Green tea ,"Siblings,Friends",-1.0,Sushi
+603664,1,2.0,Week day dinner,9.0,Jiro Dreams of Sushi,Calpis,Parents,-1.0,Sushi
+840827,5,4.0,Weekend dinner,20.0,Romance movie,Water,"Parents,Friends",-1.0,Sushi
+604897,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",35.0,Food wars,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+525422,3,4.0,"Week day lunch,Weekend lunch,Weekend dinner,At a party",15.0,,Water,"Parents,Siblings,Friends",2.0,Sushi
+622023,4,5.0,"Week day dinner,Weekend dinner,At a party",20.0,Wolf of Wallstreet,Coke Zero,Friends,2.0,Sushi
+604770,2,4.0,Week day lunch,9.0,Godzilla,no drink,Strangers,-1.0,Sushi
+745297,5,4.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",11.0,Karate Kid,Water,"Friends,Strangers",1.0,Sushi
+627599,2,3.0,"Week day dinner,Weekend dinner,At a party",16.0,Scary Movie 4 (2006),Water,"Parents,Siblings,Friends",-1.0,Sushi
+520037,4,4.0,"Week day dinner,Weekend dinner",10.0,Finding Nemo,Beer,"Parents,Siblings",-1.0,Sushi
+632189,1,3.0,"Week day dinner,Weekend dinner,At a party,Late night snack",2.0,Jiro dreams of sushi,Water,"Parents,Friends,Strangers",-1.0,Sushi
+228777,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",14.0,kill bill ,water,Siblings,-1.0,Sushi
+609278,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Little Mermaid,Miso soup,"Parents,Friends",-1.0,Sushi
+607517,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Recep Ivedik 2,Sake,"Parents,Siblings",-1.0,Sushi
+714607,2,4.0,"Week day lunch,Weekend lunch",4.0,Pirates of the Carribeans,Matcha,"Siblings,Friends",-1.0,Sushi
+497695,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",20.0,Crazy Rich Asians,Water,"Parents,Siblings,Friends",-1.0,Sushi
+608688,3,5.0,"Weekend lunch,Weekend dinner",15.0,"Jiro Dreams of Sushi, East Side Sushi, Finding Nemo",Tea,Friends,2.0,Sushi
+604386,3,3.0,"Week day dinner,Weekend dinner,At a party",30.0,Jiro Dreams of Sushi,tea,Friends,-1.0,Sushi
+628559,5,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Spirited Away,Green tea,Parents,-1.0,Sushi
+715152,4,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",25.0,"Any japanese movie, and animes ",Bubble Tea,"Parents,Siblings,Friends",-1.0,Sushi
+604110,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,"Monsters, Inc.",Juice,Parents,-1.0,Sushi
+629010,3,5.0,"Week day dinner,Weekend dinner,At a party",10.0,Kill Bill,Lemon Water,"Parents,Friends",-1.0,Sushi
+605254,4,4.0,"Week day dinner,Weekend lunch,Weekend dinner",10.0,cloudy with a chance of meatballs,hot green tea,"Parents,Friends",-1.0,Sushi
+628990,4,5.0,"Weekend lunch,Weekend dinner",18.0,Jiro Dreams of Sushi,Soju,Parents,-1.0,Sushi
+625295,3,9.0,"Week day dinner,Weekend dinner,At a party",10.0,Spirited away,Water,"Parents,Friends",-1.0,Sushi
+635533,3,3.0,Weekend dinner,30.0,Jiro Dreams of Sushi,rice wine,"Parents,Friends",-1.0,Sushi
+630389,4,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Jiro Dreams of Sushi,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+629025,5,9.0,"Week day dinner,At a party",20.0,squid game,water,Strangers,-1.0,Sushi
+524441,4,6.0,Weekend dinner,15.0,Finding Nemo,Boba,Siblings,-1.0,Sushi
+631216,2,5.0,"Week day lunch,Week day dinner",20.0,na,water,"Siblings,Friends",4.0,Sushi
+738875,4,5.0,"Week day lunch,Weekend lunch,At a party",8.0,Crazy Rich Asians,Milk tea,"Siblings,Friends,Strangers",1.0,Sushi
+634669,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",6.96,Jiro Dreams of Sushi,Sake,"Friends,Strangers",-1.0,Sushi
+409940,1,2.0,Weekend dinner,15.0,spirited away,miso soup,"Parents,Friends",-1.0,Sushi
+399605,1,3.0,"Weekend dinner,At a party",15.0,spirit away,barley tea,Friends,-1.0,Sushi
+721831,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,John Wick,Sake,,-1.0,Sushi
+835223,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,-,Green tea,"Parents,Siblings,Friends",1.0,Sushi
+712938,4,3.0,Weekend dinner,17.0,Spirited Away,Calpis,Strangers,-1.0,Sushi
+289440,5,2.0,"Weekend dinner,At a party",10.0, Lost in Translation,tea,"Parents,Friends,Strangers",-1.0,Sushi
+714503,2,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,short movie because I eat it fast,soybean milk,"Teachers,Strangers",1.0,Sushi
+714893,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The breakfast club,Water,"Friends,Strangers",-1.0,Sushi
+601094,5,8.0,"Weekend lunch,Weekend dinner",13.0,Spirited Away,hot tea,"Friends,Strangers",2.0,Sushi
+618150,4,3.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",12.0,,"water, iced-tea","Friends,Strangers",1.0,Sushi
+629844,5,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Samurai Jack,Orange juice,"Parents,Siblings,Friends",-1.0,Sushi
+626482,5,4.0,"Weekend dinner,At a party",20.0,Kung Fu Panda,,Friends,-1.0,Sushi
+609257,4,3.0,"Week day lunch,Weekend dinner,At a party",18.0,Mean Girls,Water,"Parents,Siblings,Friends",-1.0,Sushi
+717921,2,10.0,"Week day dinner,Weekend dinner,At a party",20.0,Girl's Trip,Water,Friends,-1.0,Sushi
+181851,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,,water,"Parents,Siblings,Friends",-1.0,Sushi
+743828,2,5.0,"Week day dinner,Weekend dinner",7.0,Finding Nemo,Water,"Parents,Siblings,Friends",-1.0,Sushi
+520861,4,4.0,"Weekend lunch,Weekend dinner,At a party",20.0,Madagascar,Tea,Friends,-1.0,Sushi
+517019,5,3.0,"Week day dinner,Weekend dinner,Late night snack",7.0,Spirited Away,Beer,"Friends,Strangers",-1.0,Sushi
+611716,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Bladerunner,miso soup,Friends,-1.0,Sushi
+193195,5,3.0,"Week day dinner,Weekend dinner,At a party",20.0,Kill Bill,Water,"Parents,Siblings,Friends",1.0,Sushi
+627530,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",14.0,Koe No Katachi,Tea,"Parents,Friends",-1.0,Sushi
+626479,5,5.0,"Weekend dinner,At a party",10.0,Isle of Dogs,Just water honestly,"Parents,Friends",-1.0,Sushi
+624540,5,3.0,Weekend lunch,20.0,talented,korea drink/japanese drink,Friends,-1.0,Sushi
+625315,5,4.5,"Week day dinner,Weekend dinner",17.0,The Breakfast Club,Tea,"Siblings,Friends",-1.0,Sushi
+601941,3,4.0,"Week day dinner,Weekend lunch,Weekend dinner",15.0,Crayon Shin-chan the Movie,Oolong Tea,"Parents,Friends",-1.0,Sushi
+715806,3,5.0,"Week day lunch,Late night snack",13.0,Dreams of Sushi,Water,"Parents,Siblings",-1.0,Sushi
+720045,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",11.0,Finding Nemo,Water,"Parents,Siblings,Friends",-1.0,Sushi
+713585,4,5.0,"Week day dinner,Weekend dinner,At a party",30.0,Idk,Sake,"Parents,Friends",-1.0,Sushi
+611188,2,4.0,"Week day lunch,Week day dinner,Weekend lunch",12.0,Spirited Away,Tea,Friends,-1.0,Sushi
+606726,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Crazy Rich Asians,Juice,"Parents,Friends,Strangers",-1.0,Sushi
+634825,2,3.0,Weekend dinner,12.0,Your name,Tea,Friends,-1.0,Sushi
+613409,3,3.0,"Week day dinner,Weekend dinner,At a party,Late night snack",6.0,Memoirs of A Geisha,Water,Parents,1.0,Sushi
+633224,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Kung Fu Panda,Water,"Siblings,Friends",-1.0,Sushi
+738850,4,5.0,"Week day dinner,Weekend lunch,Weekend dinner",12.0,Masterchef,Tea,"Parents,Friends",1.0,Sushi
+13183,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Memoirs of a Geisha,Water,"Siblings,Friends",-1.0,Sushi
+627169,2,5.0,"Week day dinner,Weekend dinner,At a party,Late night snack",20.0,The Wolverine,champagne,Parents,-1.0,Sushi
+496344,3,3.0,"Week day dinner,Weekend lunch,At a party",4.0,Bullet Train,Oolong Tea,"Parents,Siblings,Friends",-1.0,Sushi
+409723,3,7.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",12.0,The breakfast club,Sake,"Friends,Strangers",-1.0,Sushi
+630949,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",4.0,The Godfather,Tea,"Siblings,Friends",-1.0,Sushi
+310438,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,John Wick 3,Sake,Friends,-1.0,Sushi
+627430,5,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Ponyo,Tea,"Siblings,Friends,Teachers",1.0,Sushi
+526510,3,5.0,"Week day lunch,Weekend lunch",20.0,,water,Friends,3.0,Sushi
+390823,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Finding Nemo,Tea,"Parents,Friends",-1.0,Sushi
+712143,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,monster,Sake,Friends,4.0,Sushi
+612538,5,3.0,"Week day dinner,Weekend dinner,At a party",9.0,Cars 2,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+627539,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,The Last Samurai,Tea,Parents,-1.0,Sushi
+740568,5,3.0,"Week day dinner,Weekend dinner",14.0,Cars,Water,Parents,-1.0,Sushi
+712702,2,3.0,"Week day dinner,Weekend dinner,Late night snack",10.0,Spirited Away,lemon tea,"Parents,Friends",-1.0,Sushi
+406863,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Kung Fu Panda,Bubble Tea,Friends,-1.0,Sushi
+726962,1,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",30.0,Detective Conan,coke,"Parents,Siblings",-1.0,Sushi
+628077,4,5.0,"Week day lunch,Week day dinner,Weekend lunch",12.0,Big Hero 6,Water,"Parents,Siblings,Friends",-1.0,Sushi
+601693,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Shark Tale,Water,"Parents,Siblings,Friends",-1.0,Sushi
+606821,5,8.0,"Week day dinner,Weekend dinner",20.0,Yakuza,Sake,"Parents,Teachers",-1.0,Sushi
+455047,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",20.0,,"water, tea","Parents,Siblings,Friends",-1.0,Sushi
+625576,3,8.0,"Week day lunch,At a party",12.0,Finding Nemo,Water,Friends,-1.0,Sushi
+387330,4,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Wizards of Waverly Place Movie,7up,Friends,1.0,Pizza
+746750,3,6.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.0,For some reason home alone is the first thing that came to mind,Pepsi,"Friends,Strangers",1.0,Pizza
+635179,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Avengers End Game,Sprite,Friends,1.0,Pizza
+313562,1,8.0,"Weekend dinner,At a party,Late night snack",2.0,fast and furious ,crush ,"Siblings,Friends",2.0,Pizza
+635627,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,Rush Hour,Coke,"Friends,Teachers",-1.0,Pizza
+524485,4,10.0,"Week day lunch,Weekend lunch,At a party",7.5,Teenage Mutant Ninja Turtles,Coke,Friends,-1.0,Pizza
+606905,4,7.0,"Week day lunch,At a party,Late night snack",14.99,ratatouille,pineapple fanta,Friends,2.0,Pizza
+393424,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Spider-Man 2,Coke,"Siblings,Friends",-1.0,Pizza
+628558,2,7.0,"Weekend dinner,At a party,Late night snack",10.0,Teenage Mutant Ninja Turtles. The turtles are famous for their love of pizza.,tap water or sprite,"Siblings,Friends",1.0,Pizza
+411781,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Spider-Man 2,Coke Zero,"Parents,Siblings,Friends",-1.0,Pizza
+525567,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Ratatouille,Water,"Friends,Strangers",1.0,Pizza
+498848,3,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Eat Pray Love,Beer,"Siblings,Friends",-1.0,Pizza
+638838,2,4.0,"Week day dinner,Weekend dinner,At a party",4.29,"Rise of the Teenage Mutant Ninja Turtles: The Movie (2022)
+----------------------------------------------------------",Pepsi,Friends,-1.0,Pizza
+411253,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.0,teenage mutant ninja turtles,nestea,"Parents,Friends,Teachers",-1.0,Pizza
+410165,4,5.0,"Week day lunch,Weekend dinner,At a party,Late night snack",15.0,avengers,apple juice,Friends,-1.0,Pizza
+608554,3,8.0,"Week day lunch,Weekend lunch,At a party,Late night snack",5.0,Star Wars,Pop,"Parents,Siblings,Friends",2.0,Pizza
+602394,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Home Alone ,Pop,"Parents,Siblings,Friends",2.0,Pizza
+519570,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Saving private ryan,Soda,"Friends,Strangers",-1.0,Pizza
+744484,2,15.0,"Week day dinner,Weekend dinner,At a party,Late night snack",4.0,Home Alone,Coke,"Parents,Siblings,Friends",1.0,Pizza
+508149,3,5.0,"Weekend dinner,At a party,Late night snack",19.0,Ratatouille,Water,"Siblings,Friends",2.0,Pizza
+524992,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0, the avengers ,coca cola,"Friends,Teachers",4.0,Pizza
+413570,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Spider-Man 2002 starring Tobey Maguire,Coca-Cola,"Siblings,Friends",-1.0,Pizza
+634468,2,3.0,"Week day dinner,Weekend dinner,At a party",30.0,Back to the future,Soda/Pop,"Siblings,Teachers",1.0,Pizza
+522205,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Spiderman,Sprite,"Parents,Siblings,Friends",2.0,Pizza
+631198,3,7.0,"Week day lunch,Weekend lunch,At a party",20.0,Green Book,water,"Parents,Siblings,Friends,Strangers",3.0,Pizza
+630928,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Cloudy with a Chance of Meatballs,apple juice,Friends,-1.0,Pizza
+607609,3,8.0,"At a party,Late night snack",2.5,Interstellar,Soft Drink,Friends,2.0,Pizza
+522890,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Home Alone. Or action movies,"Sprite or any soft drinks as such. Coke, Pepsi, etc.","Siblings,Friends",-1.0,Pizza
+630227,2,3.0,"Week day dinner,Weekend dinner,At a party",20.0,The Super Mario Bros. Movie,Coca Cola,"Siblings,Friends",-1.0,Pizza
+603607,3,4.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Mystic Pizza,Coke,"Siblings,Friends",-1.0,Pizza
+617029,3,5.0,"Week day dinner,Weekend dinner,At a party",20.0,Scott Pilgrim vs. the World,coke,"Siblings,Friends,Strangers",1.0,Pizza
+617462,3,4.0,"Week day lunch,Weekend lunch,At a party",5.0,Spider-Man 2,Coke,"Siblings,Friends",-1.0,Pizza
+633001,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",5.0,Ratatouille ,Iced tea,"Parents,Friends",-1.0,Pizza
+634690,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,home alone 2,pepsi,"Parents,Siblings",1.0,Pizza
+630198,2,4.0,"Weekend lunch,At a party",5.0,the ritual,coca-cola,"Friends,Teachers",-1.0,Pizza
+520507,3,7.0,"Weekend dinner,At a party",4.0,,Ginger ale,"Parents,Siblings,Friends",1.0,Pizza
+635065,1,3.0,"Week day lunch,Week day dinner,Weekend lunch",7.0,Breakaway,Soda,"Siblings,Friends,Strangers",-1.0,Pizza
+613209,3,3.0,"At a party,Late night snack",5.0,Homealone,Pepsi/Coke,Siblings,1.0,Pizza
+605452,2,6.0,"Weekend dinner,At a party",15.0,Uncle Grandpa,Soda,Friends,-1.0,Pizza
+24137,4,7.0,"Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,comedy,coke,Friends,-1.0,Pizza
+518809,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.0,none,fanta,"Friends,Teachers",1.0,Pizza
+508156,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,At a party",3.0,"eat, pray, love",Coca-Cola Zero,"Siblings,Friends,Teachers",1.0,Pizza
+632909,3,10.0,"Week day dinner,Weekend dinner,At a party,Late night snack",7.0,spiderman,canada dry,"Parents,Siblings",-1.0,Pizza
+411810,3,3.0,"Week day lunch,Weekend lunch,At a party,Late night snack",2.0,Toy Story,Pop with ice,"Parents,Siblings,Friends",-1.0,Pizza
+214145,3,10.0,Weekend lunch,10.0,shrek,gatorade,"Parents,Siblings",3.0,Pizza
+628986,2,4.0,At a party,16.99,Captain America,Coke,Teachers,3.0,Pizza
+211158,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,Home Alone,Soda,Friends,-1.0,Pizza
+522877,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Pirates of the Caribbean ,ginger ale ,"Siblings,Friends",1.0,Pizza
+600849,2,4.0,"Weekend dinner,At a party",6.0,Superbad,Ginger ale,Friends,-1.0,Pizza
+716142,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Home Alone,soda,Friends,-1.0,Pizza
+835124,4,5.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,Teenage Mutant Ninja Turtles,Coke,Friends,-1.0,Pizza
+634764,4,7.0,"Week day lunch,Weekend lunch,At a party,Late night snack",10.0,The Grinch.,Coke,"Parents,Siblings,Friends,Teachers,Strangers",-1.0,Pizza
+629156,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Teenage Mutant Ninja Turtles,Soda,Friends,1.0,Pizza
+526497,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Set it up,Coke ,"Parents,Siblings,Friends,Teachers",1.0,Pizza
+97339,1,5.0,At a party,10.0,Spiderman 2,Coke Zero,"Parents,Siblings,Friends",2.0,Pizza
+631909,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,"Mufasa, The Lion King",Coke,Friends,-1.0,Pizza
+625349,3,4.0,"Weekend dinner,At a party,Late night snack",20.0,Dune,sprite,"Parents,Friends,Strangers",1.0,Pizza
+616634,4,9.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",4.0,The Lego Movie,Pepsi,"Friends,Teachers,Strangers",1.0,Pizza
+616836,3,5.0,"Weekend dinner,At a party",3.0,Ratatouille,Diet Coke,Friends,2.0,Pizza
+609116,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,The Big Lebowski,Soda,"Siblings,Friends",-1.0,Pizza
+626789,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",6.0,,diet coke,Friends,-1.0,Pizza
+632684,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.0,Teenage Mutant Ninja Turtles,Coca Cola,"Parents,Siblings,Friends",-1.0,Pizza
+522967,2,3.0,"Weekend lunch,At a party",12.0,spiderman,cocacola,"Parents,Teachers",1.0,Pizza
+632893,3,10.0,"Weekend lunch,At a party",15.0,Transformers,Pepsi,Friends,1.0,Pizza
+626754,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Home Alone,Coca Cola,"Parents,Friends",-1.0,Pizza
+631583,2,6.0,"Week day dinner,Weekend dinner,At a party",18.0,Futurama: Bender's Big Score,Coke,"Parents,Siblings,Friends",-1.0,Pizza
+718026,3,5.0,"Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,teenage mutant ninja turtles,pepsi,Friends,-1.0,Pizza
+602533,5,5.0,"Weekend dinner,At a party",15.0,Godfather,Coke,"Parents,Friends",1.0,Pizza
+631496,2,4.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Spiderman,Coke,Friends,-1.0,Pizza
+632051,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.5,Home Alone,Coke,"Parents,Siblings,Friends,Strangers",-1.0,Pizza
+632975,2,5.0,"Week day lunch,Weekend lunch,At a party",4.0,Monster House,Coke,"Siblings,Friends",1.0,Pizza
+407221,3,5.0,"Week day lunch,At a party",25.0,Spiderman,Pepsi,Friends,3.0,Pizza
+204508,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Cloudy with a Chance of Meatballs,sprite,Friends,-1.0,Pizza
+618700,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,the godfather,soda,Friends,1.0,Pizza
+712054,3,3.0,"Week day dinner,At a party",16.0,Harry Potter,Coke,Friends,-1.0,Pizza
+604132,4,5.0,"Week day lunch,Weekend lunch,At a party",8.0,Ratatouille,Soda,"Siblings,Friends",2.0,Pizza
+741428,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,,Pepsi,Friends,-1.0,Pizza
+633024,2,6.0,"Week day lunch,At a party,Late night snack",5.0,N.A. (I only watched a few movies so I cannot think of any movie related to Pizza),water,Strangers,-1.0,Pizza
+601983,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Home Alone,Coke,"Parents,Siblings",1.0,Pizza
+629221,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Teenage Mutant Ninja Turtles,Coke,Friends,-1.0,Pizza
+634705,2,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,The Mario Movie,Orange Crush Soda,"Parents,Siblings",1.0,Pizza
+630070,3,14.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Spider-man 2,coke,"Parents,Friends,Teachers,Strangers",1.0,Pizza
+630006,3,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Home Alone,Coke,"Parents,Siblings,Friends,Teachers",2.0,Pizza
+629072,3,6.0,"Weekend dinner,At a party,Late night snack",4.0,Cloudy with a chance of meatballs,Soda,"Parents,Friends",-1.0,Pizza
+626026,2,6.0,"Weekend lunch,Weekend dinner,At a party",4.0,ratatouille.,sprite or juice.,"Friends,Strangers",-1.0,Pizza
+630948,3,3.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",15.0,Teenage Mutant Ninja Turtles,soda,"Parents,Siblings,Friends",-1.0,Pizza
+631181,4,4.0,"Week day lunch,At a party,Late night snack",4.4,The Hangover,coke,Parents,1.0,Pizza
+633541,2,6.0,"Weekend dinner,At a party,Late night snack",15.0,The Dark Knight,Nestea,Friends,1.0,Pizza
+633097,3,8.0,"Week day lunch,Weekend dinner,At a party",5.0,American Pie,Cola,"Friends,Teachers",-1.0,Pizza
+629869,3,5.0,At a party,2.0,Friday,Diet coke,Friends,1.0,Pizza
+600915,4,5.0,"At a party,Late night snack",20.0,Toy Story,Water,Friends,-1.0,Pizza
+525420,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Ninja Turtles,Coke,"Siblings,Friends,Strangers",2.0,Pizza
+629985,3,10.0,"Week day lunch,Weekend lunch,At a party",3.0,Pirates of the Caribbean ,pepsi,Strangers,3.0,Pizza
+523128,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",9.0,This is the end,Sprite,"Parents,Siblings,Friends,Teachers",2.0,Pizza
+727410,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",25.0,Karate Kid,Water,Friends,1.0,Pizza
+616457,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Goodfellas,coke,"Friends,Teachers",1.0,Pizza
+419835,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Cloudy with a Chance of Meatballs,Coke,"Siblings,Friends,Strangers",-1.0,Pizza
+543739,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,Teenage Mutant Ninja Turtles ,Coke,"Siblings,Friends",-1.0,Pizza
+410380,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Spider Man,Soda,"Parents,Friends,Teachers",-1.0,Pizza
+634566,4,8.0,Weekend dinner,15.0,The Gentlemen ,Martini Cocktail ,Friends,-1.0,Pizza
+603130,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,The Godfather,Pepsi,"Friends,Teachers",-1.0,Pizza
+229211,3,3.0,"Week day lunch,Week day dinner,At a party,Late night snack",5.0,Pulp Fiction,Gingerale (Canada Dry),"Parents,Friends",1.0,Pizza
+626849,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage Mutant Ninja Turtles,Pop/Soda,"Siblings,Friends",-1.0,Pizza
+632125,3,5.0,"Week day dinner,Weekend dinner,At a party,Late night snack",3.0,cloudy with a chance of meatballs,Sprite,"Friends,Teachers",-1.0,Pizza
+626812,2,7.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",20.0,no movie,ice tea,Friends,-1.0,Pizza
+517774,2,5.0,"Weekend lunch,At a party",6.0,Inception,sprite,Friends,1.0,Pizza
+603189,3,6.0,"At a party,Late night snack",4.0,back in action,Diet Coke,"Siblings,Friends,Teachers",2.0,Pizza
+631014,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Spiderman 2,Fanta,Parents,-1.0,Pizza
+503957,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",11.0,Home alone,Coke,Friends,4.0,Pizza
+524890,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,Spider-Man 2,Sprite,"Siblings,Friends",-1.0,Pizza
+717411,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",3.0,Italian movie,soft drink,Strangers,1.0,Pizza
+525311,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Die Hard,Soda,"Parents,Siblings",1.0,Pizza
+630967,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,The Social Network,Red Wine or Coca Cola,"Friends,Strangers",1.0,Pizza
+604969,2,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Neverending Story,Soda,"Parents,Siblings,Friends",2.0,Pizza
+524480,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Maze Runner,Mountain Dew,Friends,-1.0,Pizza
+634977,5,4.0,"Week day lunch,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Spider Man 2,Coca Cola,"Parents,Siblings,Friends",-1.0,Pizza
+630823,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Transformer,coke,"Siblings,Friends",-1.0,Pizza
+504548,2,4.0,"Week day lunch,Weekend lunch,At a party,Late night snack",5.0,Spider-Man 2,Coca-Cola,"Friends,Teachers",-1.0,Pizza
+523461,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Spiderman,Soda,"Parents,Siblings,Friends",-1.0,Pizza
+854745,3,4.0,"Week day lunch,Weekend lunch,At a party,Late night snack",5.0,Friends,Soda,Friends,2.0,Pizza
+505458,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,,Soft drink,Friends,-1.0,Pizza
+603612,4,7.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Teenage Mutant Ninja Turtles,Water,"Parents,Strangers",-1.0,Pizza
+712252,4,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",4.0,Cloudy with a Chance of Meatballs,Coke,"Siblings,Friends",-1.0,Pizza
+712771,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Green Book,Orange juice,Parents,-1.0,Pizza
+746466,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",24.0,The DaVinci Code,Ginger Ale,"Siblings,Friends",1.0,Pizza
+631902,2,3.0,"Week day lunch,Week day dinner,Weekend dinner,At a party",4.0,Spider-man,Soda,"Parents,Friends,Teachers",1.0,Pizza
+519986,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",4.0,"Crazy, Stupid, Love",Coke,"Friends,Strangers",1.0,Pizza
+407257,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Teenage Mutant Ninja Turtles,"Soda
+
+Pop
+
+Coke","Parents,Siblings,Friends,Teachers,Strangers",1.0,Pizza
+634885,3,5.0,"Week day lunch,Weekend lunch,At a party",4.0,Luca,Water,Friends,-1.0,Pizza
+619932,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Any movie set in New York,Soda,"Teachers,Strangers",1.0,Pizza
+631141,4,4.0,"Week day lunch,Weekend dinner,At a party,Late night snack",4.0,Home Alone,Pepsi,"Friends,Strangers",-1.0,Pizza
+631069,4,12.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Home Alone,Soft drink (coke/pepsi),Friends,2.0,Pizza
+634508,4,7.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",3.0,Grown ups,Coke,"Siblings,Friends",1.0,Pizza
+206744,2,10.0,"Weekend dinner,At a party",5.0,Spider-Man 2,Coke,"Parents,Siblings,Friends",-1.0,Pizza
+629659,1,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,Toy Story,Kraken Spiced Rum,"Friends,Strangers",3.0,Pizza
+401586,3,10.0,"Week day lunch,At a party,Late night snack",3.5,Home Alone,diet coke,Friends,2.0,Pizza
+629263,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Teenage mutant ninja turtles,Diet Pepsi,"Parents,Siblings,Friends",1.0,Pizza
+631678,2,5.0,"Week day lunch,Weekend dinner,At a party,Late night snack",5.0,Transformers,Coke,Friends,-1.0,Pizza
+411681,2,3.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",6.0,Spiderman (with Tobey Maguire),Pop,Friends,-1.0,Pizza
+630378,3,8.5,"Week day lunch,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Home Alone 2: Lost in New York,Pepsi,Friends,2.0,Pizza
+604991,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Toy Story,Ginger Ale,"Parents,Teachers,Strangers",1.0,Pizza
+629723,2,4.0,"Week day dinner,Weekend dinner,At a party,Late night snack",8.0,Wayne's World,Diet Coke,Friends,-1.0,Pizza
+387522,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Teenage Mutant Ninja Turtles,Coca Cola,"Friends,Strangers",1.0,Pizza
+613484,5,8.0,"Week day lunch,Weekend lunch",3.0,Avengers: end game,Coke,Friends,3.0,Pizza
+605537,3,6.0,"Week day lunch,Weekend lunch,At a party",8.0,Ratatouille,diet coke,Friends,-1.0,Pizza
+624443,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.0,Teenage Mutant Ninja Turtles,Soda,Parents,-1.0,Pizza
+718089,3,5.0,"Weekend dinner,At a party,Late night snack",5.0,Toy Story ,Coke,"Friends,Teachers",1.0,Pizza
+526064,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",2.5,Teenage Mutant Ninja Turtles,Soda,"Friends,Teachers",1.0,Pizza
+609179,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Teenage mutant ninja turtles,coke,"Parents,Siblings,Friends",2.0,Pizza
+411117,2,4.0,"Week day dinner,Weekend dinner,At a party,Late night snack",6.0,Do The Right Thing,Coca-Cola,"Parents,Siblings",-1.0,Pizza
+634430,3,4.0,"Week day dinner,Weekend lunch,Weekend dinner,At a party",3.0,Deadpool,Pepsi,Strangers,-1.0,Pizza
+633712,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Spider-Man 2,Water,"Parents,Siblings,Friends",-1.0,Pizza
+520090,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,Space Jam,Coca-Cola,"Friends,Strangers",1.0,Pizza
+741592,3,12.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",2.99,Home Alone,Soda,"Siblings,Friends",-1.0,Pizza
+628547,3,9.0,"Week day dinner,Weekend dinner,At a party,Late night snack",5.0,Ratatouille,Coca cola,"Friends,Teachers",1.0,Pizza
+501513,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",15.0,Friends,Nestea,Friends,2.0,Pizza
+630929,3,6.0,"Weekend dinner,At a party",2.0,spiderman,soda,"Siblings,Friends",-1.0,Pizza
+617379,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",5.0,The spongebob movie (2004),Dr. Pepper,Teachers,2.0,Pizza
+617310,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",3.99,Italian Jon,Coca-Cola ,"Siblings,Friends",-1.0,Pizza
+495424,3,5.0,"Week day lunch,At a party",5.0,Ratatouille,Canada Dry,Friends,-1.0,Pizza
+622787,3,5.0,"Week day lunch,Weekend lunch,At a party",4.0,spiderman 2,gingerale,"Friends,Teachers",-1.0,Pizza
+611932,3,10.0,"Week day lunch,At a party,Late night snack",8.0,Home Alone,Soda,"Friends,Strangers",-1.0,Pizza
+619892,3,10.0,"Week day lunch,Week day dinner,Weekend dinner,At a party,Late night snack",16.0,Teenage Mutant Ninja Turtles,Pepsi,"Parents,Siblings,Friends",2.0,Pizza
+529289,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Step Brothers,Coke,"Parents,Siblings,Friends",1.0,Pizza
+630738,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,rush hour,pop,"Parents,Siblings,Friends",-1.0,Pizza
+524766,5,10.0,"Week day lunch,Weekend lunch,At a party,Late night snack",15.0,Idk,Pop drink,"Parents,Siblings,Friends",-1.0,Pizza
+522148,2,6.5,"Week day lunch,Week day dinner,At a party",4.0,home alone,cola,Friends,-1.0,Pizza
+631046,3,12.0,"Weekend dinner,At a party,Late night snack",10.0,The Godfather,"Pepsi, Coke","Parents,Siblings,Friends",-1.0,Pizza
+66222,3,8.0,"At a party,Late night snack",13.0,Garfield,Zero sugar coca cola,Friends,2.0,Pizza
+630209,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,SpongeBob,Coke,Friends,1.0,Pizza
+387330,5,5.0,"Week day lunch,Weekend lunch",10.0,The Dictator,Sprite,Strangers,-1.0,Shawarma
+746750,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,I actually can not think of anything,juice,"Parents,Siblings",2.0,Shawarma
+629285,4,8.0,Week day dinner,8.0,MIB,nestea,Strangers,2.0,Shawarma
+743488,4,5.0,"Week day lunch,Weekend lunch",9.0,The Avengers,soda,Friends,-1.0,Shawarma
+635179,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,Gladiator,Iced Tea,Siblings,3.0,Shawarma
+313562,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,fast and furious ,crush ,"Siblings,Friends",2.0,Shawarma
+635627,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Avengers,Coke,"Siblings,Friends",2.0,Shawarma
+524485,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",22.0,The Avengers,Coke,Friends,2.0,Shawarma
+606905,4,9.0,"Week day lunch,Week day dinner,Late night snack",11.99,borat,pineapple fanta,"Friends,Strangers",3.0,Shawarma
+393424,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Avengers,Coke,"Siblings,Friends",2.0,Shawarma
+628558,2,8.0,Week day lunch,12.0,"The Avengers. At the end of the film after the battle in NYC, Tony Stark suggests to the rest of the team that they go get shawarma.",tap water.,Strangers,-1.0,Shawarma
+628093,4,6.0,Late night snack,12.0,Deadpool 2.,Water.,Friends,-1.0,Shawarma
+411781,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.0,The Avengers,Coke Zero,"Parents,Siblings,Friends",-1.0,Shawarma
+525567,3,7.0,"Weekend lunch,Weekend dinner,Late night snack",12.0,The Kite Runner,Water,Friends,3.0,Shawarma
+498848,2,15.0,"Week day lunch,Weekend lunch",10.0,Avengers,Pop,"Parents,Siblings,Friends",2.0,Shawarma
+638838,4,10.0,"Week day lunch,Weekend lunch",12.5,The Barbie Movie,Pepsi,Siblings,2.0,Shawarma
+411253,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",5.0,avengers,sprite,Friends,-1.0,Shawarma
+410165,5,8.0,"Week day lunch,Weekend lunch",15.0,avengers,pineapple juice,Friends,2.0,Shawarma
+608554,4,4.0,"Week day lunch,Week day dinner,Weekend dinner",15.0,Avengers,Laban,"Parents,Siblings",3.0,Shawarma
+602394,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Deadpool 2,Pop,Friends,1.0,Shawarma
+519570,4,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",15.0,Breaking bad,Soda,"Parents,Friends",1.0,Shawarma
+744484,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Avengers,Water,"Siblings,Friends",3.0,Shawarma
+508149,4,10.0,"Week day dinner,Weekend dinner",11.0,The Avengers,Water,Parents,4.0,Shawarma
+524992,4,4.0,"Week day lunch,Weekend lunch",12.0,The Dictator,pepsi,"Friends,Strangers",2.0,Shawarma
+413570,4,8.0,"Week day lunch,Weekend lunch,At a party,Late night snack",9.0,Avengers,Sprite,"Siblings,Friends",1.0,Shawarma
+634468,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,The Avengers,Soda/Pop,"Friends,Strangers",1.0,Shawarma
+522205,4,5.0,Week day lunch,12.0,The Avengers ,Sprite,"Friends,Teachers",2.0,Shawarma
+631198,2,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,water,"Friends,Strangers",4.0,Shawarma
+313577,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Avengers,coke,Friends,2.0,Shawarma
+629700,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",13.0,The Dictator,Water.,Friends,-1.0,Shawarma
+630928,4,9.0,"Week day lunch,Weekend lunch",11.0,Drishyam,coffee,Strangers,-1.0,Shawarma
+607286,2,12.5,"Week day lunch,Late night snack",10.0,The Avengers,Coke,Friends,3.0,Shawarma
+607609,3,8.0,"Week day lunch,Week day dinner,Weekend lunch",7.0,Mission Impossible,Orange Juice,Siblings,3.0,Shawarma
+630227,4,10.0,"Week day lunch,Late night snack",12.0,Us,Coca cola,"Parents,Siblings",2.0,Shawarma
+603607,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,The Avengers,Pepsi,Friends,1.0,Shawarma
+617029,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Borat,tea,"Parents,Siblings",2.0,Shawarma
+617462,3,6.0,"Week day lunch,Week day dinner,Late night snack",10.0,Avengers 1 ,Coke,"Siblings,Friends",2.0,Shawarma
+633001,3,13.0,"Week day lunch,Week day dinner,Weekend lunch",8.0,The Avengers,Iced tea,"Friends,Strangers",-1.0,Shawarma
+634690,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",11.0,Avengers,Pepsi,Friends,2.0,Shawarma
+630198,3,7.0,Week day lunch,10.0,avengers,Mango Juice,"Parents,Friends,Strangers",1.0,Shawarma
+520507,3,8.0,"Week day lunch,Weekend lunch",6.0,,Water,Strangers,1.0,Shawarma
+635065,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",9.0,Aladdin,Soda,Friends,2.0,Shawarma
+605452,4,12.0,"Week day dinner,Weekend dinner",20.0,The Avengers,Ayran,"Friends,Strangers",2.0,Shawarma
+24137,2,5.0,"Week day lunch,Week day dinner",15.0,middle east movie,fruit juice,"Friends,Strangers",1.0,Shawarma
+518809,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,none,coke,"Parents,Siblings",3.0,Shawarma
+634646,4,5.0,"Week day lunch,Weekend lunch",7.0,The Avengers,water,"Friends,Strangers",2.0,Shawarma
+508156,2,7.0,"Week day lunch,Week day dinner,Weekend lunch",15.0,Avengers,Ayran,"Parents,Friends,Strangers",2.0,Shawarma
+632909,3,6.0,"Week day lunch,Weekend lunch,At a party",13.0,Avengers,Coke,"Siblings,Friends",2.0,Shawarma
+214145,2,5.0,Week day dinner,10.0,shrek2,wine,Friends,3.0,Shawarma
+628986,2,4.0,"At a party,Late night snack",16.98,Ninja Turtle,Coca-Cola,Teachers,3.0,Shawarma
+211158,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,,Soda,Friends,2.0,Shawarma
+522877,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.5,Shrek,water,"Parents,Siblings,Friends",2.0,Shawarma
+519822,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Nosferatu,Coca-cola,"Friends,Strangers",3.0,Shawarma
+600849,3,10.0,"Week day lunch,Weekend lunch",7.0,The Avengers,Water,"Siblings,Strangers",1.0,Shawarma
+605148,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",13.0,The Avengers,"Any soda: Pepsi, Coca Cola, Crush, Canada Dry",Friends,2.0,Shawarma
+716142,4,8.0,"Week day dinner,Weekend dinner",5.0,Avengers,Soda,Parents,2.0,Shawarma
+835124,3,7.0,"Week day dinner,Weekend dinner,Late night snack",9.0,The Avengers,Fanta,Parents,2.0,Shawarma
+634764,2,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,The Avengers,Iced Tea,"Siblings,Friends",3.0,Shawarma
+629156,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,The Avengers,Mint lemonade,Friends,2.0,Shawarma
+498563,3,13.0,"Week day lunch,Weekend lunch",12.0,Avenger,Tea,Strangers,-1.0,Shawarma
+526497,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",15.0,The Avengers ,Ginger Ale,"Parents,Siblings,Friends",3.0,Shawarma
+97339,3,10.0,Week day lunch,10.0,The Avengers,Coke Zero,Friends,2.0,Shawarma
+631909,3,6.0,"Week day lunch,Weekend lunch,At a party",12.0,The Avengers,Gingerale,"Siblings,Friends",2.0,Shawarma
+625349,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,madagascar,Water,"Friends,Strangers",2.0,Shawarma
+616634,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,The Avengers,Iced Tea,"Friends,Strangers",2.0,Shawarma
+616836,3,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",12.0,Aladdin,"Diet Coke
+
+ ",Friends,2.0,Shawarma
+609116,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,The Avengers,Soda,"Parents,Siblings",2.0,Shawarma
+626789,3,7.0,"Week day lunch,Weekend lunch",11.0,,diet coke,Friends,2.0,Shawarma
+632684,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Avengers,Coca Cola,"Parents,Siblings,Friends",2.0,Shawarma
+522967,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",15.0,avengers,coca cola,"Siblings,Friends",3.0,Shawarma
+632893,4,5.0,Week day lunch,10.0,Angry Birds,Sprite,Strangers,3.0,Shawarma
+626754,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",12.0,The Avengers,Water,"Parents,Friends",1.0,Shawarma
+631583,4,7.0,"Week day lunch,Weekend lunch,Late night snack",12.0,Lawrence of Arabia,Coke,"Friends,Strangers",2.0,Shawarma
+718026,3,4.0,"Week day lunch,Weekend lunch",8.0,the dictator,pepsi,Friends,-1.0,Shawarma
+602533,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",14.0,The Avengers,Nestea,"Parents,Friends,Strangers",3.0,Shawarma
+631496,4,5.0,"Week day lunch,Weekend lunch,At a party",10.0,The Avengers,Coke,Strangers,2.0,Shawarma
+632051,2,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Dictator,Water,"Friends,Strangers",2.0,Shawarma
+632975,4,9.5,"Week day dinner,Weekend lunch",12.0,Barbie,Water,"Parents,Strangers",3.0,Shawarma
+407221,4,7.0,"Week day lunch,Week day dinner",10.0,Avengers,Pepsi,"Parents,Siblings,Friends",3.0,Shawarma
+204508,2,10.0,"Week day lunch,Weekend lunch,Late night snack",10.0,avengers,coke,Friends,4.0,Shawarma
+618700,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers (2012),soda,Friends,2.0,Shawarma
+712054,3,5.0,Week day lunch,16.0,Green Book,Nestea Iced Tea,Parents,1.0,Shawarma
+604132,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Avangers,Water,"Parents,Siblings",2.0,Shawarma
+629807,3,5.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,Avengers,Water,Parents,3.0,Shawarma
+741428,3,5.0,"Week day lunch,Late night snack",8.0,,Water,Strangers,1.0,Shawarma
+633024,2,9.0,"Week day lunch,Weekend lunch",10.0,N.A. (I only watched a few movies so I cannot think of any movie related to Shawarma),Sprite,Strangers,1.0,Shawarma
+601983,3,4.0,"Week day lunch,Weekend lunch",10.0,Coco,Iced Tea,Friends,1.0,Shawarma
+629221,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Borat,Coke,Friends,2.0,Shawarma
+634705,3,10.0,"Week day lunch,Weekend lunch",8.0,13 Hours,Coca Cola,Strangers,3.0,Shawarma
+630070,4,5.0,"Week day lunch,Week day dinner,Weekend dinner",16.0,Avengers,Sprite,"Parents,Friends",2.0,Shawarma
+630006,3,4.0,Week day lunch,20.0,Deadpool,Sprite,Strangers,2.0,Shawarma
+629072,1,10.0,"Week day lunch,Weekend lunch",13.5,Aladdin,Water,"Parents,Friends",1.0,Shawarma
+626026,4,9.0,"Week day lunch,Week day dinner,Late night snack",10.0,ratatouille,sparkling water.,"Siblings,Friends",2.0,Shawarma
+630948,4,5.0,"Week day lunch,Week day dinner,Late night snack",10.0,,soda,Friends,1.0,Shawarma
+626778,5,10.0,"Week day lunch,Week day dinner",12.0,The Avengers,Coke Zero,"Parents,Siblings",1.0,Shawarma
+631181,3,9.0,"Week day lunch,Weekend lunch,Late night snack",12.0,Three idiots,Coke,Friends,1.0,Shawarma
+633541,3,9.0,"Week day lunch,Week day dinner,Weekend lunch",12.0,Taxi Driver,Nestea,Friends,3.0,Shawarma
+633097,4,6.0,"Week day dinner,Weekend dinner,At a party,Late night snack",7.0,Kung Fu panda,Lemonade,"Parents,Friends",2.0,Shawarma
+629869,2,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Dune,Diet coke,"Parents,Friends",2.0,Shawarma
+600915,3,4.0,"Weekend lunch,Weekend dinner",10.0,Cars,Water,"Parents,Friends",-1.0,Shawarma
+525420,5,8.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,Borat,Laban,"Parents,Siblings",3.0,Shawarma
+629985,3,7.0,"Week day lunch,Weekend lunch,At a party,Late night snack",7.0,The Grinch,Water,Friends,3.0,Shawarma
+523128,3,10.0,"Week day lunch,Week day dinner,Weekend lunch,At a party",10.0,John Wick,Coke,"Parents,Siblings",2.0,Shawarma
+727410,2,6.0,"Week day lunch,Weekend lunch",20.0,The Avengers,Coke,Friends,2.0,Shawarma
+616457,4,7.0,"Week day lunch,At a party",10.0,avengers,barbican,Friends,2.0,Shawarma
+419835,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",12.0,Interstellar,Yogurt,Friends,2.0,Shawarma
+543739,4,10.0,"Week day dinner,Weekend dinner",10.0,The Avengers,Coke,Friends,1.0,Shawarma
+410380,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",11.0,Avengers,Soda,"Friends,Strangers",4.0,Shawarma
+634566,2,6.0,"Week day lunch,Week day dinner,At a party,Late night snack",15.0,The lion King,Juice,"Parents,Siblings,Friends",1.0,Shawarma
+625818,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Avengers,Barbican,"Parents,Friends",2.0,Shawarma
+603130,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Deadpool and Wolverine,Canned soda,"Friends,Strangers",1.0,Shawarma
+229211,2,6.0,"Week day lunch,Weekend lunch,At a party",6.0,The Avengers,Gingerale (Canada Dry),"Friends,Strangers",2.0,Shawarma
+626849,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,Pop/Soda,"Parents,Siblings,Friends",2.0,Shawarma
+634650,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Avengers,Coke,Friends,2.0,Shawarma
+632125,2,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",2.5,,Water,"Parents,Strangers",1.0,Shawarma
+626812,3,7.5,"Week day lunch,Week day dinner,Late night snack",15.0,no movie,soft drinks,Strangers,1.0,Shawarma
+628102,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,You Don't Mess With The Zohan,Water,"Parents,Friends",2.0,Shawarma
+517774,1,5.0,"Week day lunch,Week day dinner",10.0,Interstellar,sprite,Teachers,-1.0,Shawarma
+603189,4,7.0,"Week day lunch,Week day dinner,Late night snack",10.0,Mandoob,Ayran,"Parents,Friends",2.0,Shawarma
+631014,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Prince of Egypt,Water,Friends,3.0,Shawarma
+503957,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,avengers,Ginger Ale,"Friends,Strangers",2.0,Shawarma
+524890,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Avengers,Sprite,Friends,3.0,Shawarma
+717411,4,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",7.0,Indian movie,iced tea,Strangers,1.0,Shawarma
+525311,2,10.0,"Week day lunch,Weekend lunch,At a party,Late night snack",12.0,The Avengers,Lemonade,Friends,1.0,Shawarma
+630967,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",10.0,The Dictator,Ayran,"Parents,Friends",1.0,Shawarma
+604969,3,9.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,Avengers,Soda,"Parents,Siblings,Friends,Strangers",3.0,Shawarma
+524480,5,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Avengers,Water,"Parents,Friends",-1.0,Shawarma
+634977,4,6.0,"Week day lunch,Weekend lunch,Late night snack",10.0,Avengers,Fanta,Friends,2.0,Shawarma
+630823,5,12.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",14.0,Iron man,coke,"Parents,Siblings,Friends",2.0,Shawarma
+504548,2,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,The Avengers,Water,Strangers,2.0,Shawarma
+523461,2,12.0,"Week day lunch,Weekend lunch,At a party",8.0,Avengers,Soda,Friends,2.0,Shawarma
+854745,2,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",7.0,Rush hour,Water,Friends,3.0,Shawarma
+711854,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,Mission: Impossible,Orange juice,Friends,2.0,Shawarma
+505458,4,2.0,"Week day dinner,Weekend dinner,Late night snack",10.0,,Soft,Strangers,1.0,Shawarma
+603612,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Avengers,Water,Siblings,-1.0,Shawarma
+712252,2,10.0,"Week day lunch,Weekend lunch",10.0,The Avengers,Water,Strangers,2.0,Shawarma
+742226,2,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,The Avengers (Post-Credit Scene),Juice,"Friends,Strangers",2.0,Shawarma
+712771,3,3.0,Week day lunch,20.0,Dabba,Iced tea,Friends,-1.0,Shawarma
+746466,2,7.0,"Week day lunch,Week day dinner,Weekend lunch",18.0,Rush Hour,Water,"Friends,Strangers",4.0,Shawarma
+631902,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,The Avengers (2012),Water,"Parents,Siblings,Friends,Strangers",-1.0,Shawarma
+519986,4,8.0,"Week day lunch,Weekend lunch",11.0,Avengers,Sprite,"Friends,Strangers",2.0,Shawarma
+407257,4,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,The Avengers,"Soda
+
+Pop
+
+Coke","Parents,Siblings,Friends",2.0,Shawarma
+727339,2,3.0,"Week day lunch,Week day dinner,Late night snack",10.0,The Avengers,Iced Tea,"Friends,Strangers",-1.0,Shawarma
+634885,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",11.0,Shawshank redemption,Water,"Siblings,Friends,Strangers",-1.0,Shawarma
+619932,3,10.0,"Week day lunch,Weekend lunch,Late night snack",11.0,,Juice,"Parents,Strangers",1.0,Shawarma
+601986,4,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.36,Mad Max,Coke,Strangers,2.0,Shawarma
+631141,3,3.0,"Week day lunch,Weekend lunch,Weekend dinner",12.0,Avengers,Iced Tea,"Parents,Siblings,Friends",2.0,Shawarma
+631069,3,10.0,"Week day lunch,Week day dinner",12.0,I don't know,Soft Drinks (soda),Friends,2.0,Shawarma
+634508,3,5.0,"Week day lunch,Week day dinner,Late night snack",9.0,Aladdin,Coke,Friends,3.0,Shawarma
+206744,3,7.0,Weekend lunch,10.0,The Avengers,Mango juice,"Siblings,Friends",2.0,Shawarma
+629659,3,15.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,Endgame,Mango Juice,"Parents,Siblings,Friends",3.0,Shawarma
+401586,1,10.0,"Week day lunch,Weekend lunch",12.5,Taken 2,Diet Coke,Friends,2.0,Shawarma
+629263,4,12.0,"Week day lunch,Week day dinner",15.0,The Avengers,Coke,"Siblings,Friends,Strangers",3.0,Shawarma
+631678,4,10.0,"Week day lunch,Weekend lunch",15.0,Ferris Bueller’s Day Off,Water,Friends,2.0,Shawarma
+411681,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Avengers,Water,Strangers,1.0,Shawarma
+630378,4,8.0,Week day lunch,10.0,The Avengers,Pepsi,Strangers,3.0,Shawarma
+604991,4,13.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,The Avengers,Water,"Parents,Strangers",2.0,Shawarma
+522483,5,1.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",8.0,Nothing,Water,Strangers,-1.0,Shawarma
+629723,4,1.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",13.0,The Whale,Pepsi,"Siblings,Friends",3.0,Shawarma
+387522,3,5.0,"Week day lunch,Week day dinner,Late night snack",15.0,Avengers,Coca Cola,Friends,2.0,Shawarma
+613484,4,6.0,"Weekend lunch,Weekend dinner",8.0,Chinese zodiac,Water,Strangers,3.0,Shawarma
+605537,2,3.0,Week day lunch,6.0,Ratatouille,orange juice,Strangers,1.0,Shawarma
+624443,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",7.0,The Avengers,Water,Strangers,-1.0,Shawarma
+526064,3,12.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,none,Milk,"Parents,Friends",2.0,Shawarma
+609179,4,10.0,"Week day lunch,Week day dinner,Weekend dinner",12.0,Avengers,iced tea,"Friends,Strangers",2.0,Shawarma
+411117,4,10.0,"Week day dinner,Weekend lunch,Weekend dinner,Late night snack",9.0,The Avengers,Mango Juice,"Parents,Siblings,Friends",2.0,Shawarma
+634430,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",8.0,The Avengers,Pepsi,"Parents,Siblings",1.0,Shawarma
+633712,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,The Avengers,Water,"Parents,Siblings,Friends",-1.0,Shawarma
+520090,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",9.0,Avengers,Barbican,Friends,2.0,Shawarma
+741592,4,8.0,"Week day dinner,Weekend lunch,Weekend dinner",9.99,The Avengers,Juice,"Parents,Strangers",2.0,Shawarma
+628547,4,12.0,"Week day lunch,Weekend lunch,Late night snack",15.0,The Avengers,Water,"Siblings,Friends",3.0,Shawarma
+501513,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,3 Idiots,Sprite,Strangers,-1.0,Shawarma
+630929,2,5.0,"Week day lunch,Weekend lunch,Late night snack",9.0,none,soda,Friends,-1.0,Shawarma
+617379,3,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",9.0,The Avengers,Root Beer,"Parents,Siblings,Friends",2.0,Shawarma
+617310,3,9.0,"Week day lunch,Weekend lunch,Late night snack",13.99,Avengers ,Lemonade,"Friends,Strangers",3.0,Shawarma
+495424,3,5.0,Week day lunch,10.0,Spiderman,Water,Strangers,-1.0,Shawarma
+622787,4,10.0,Week day lunch,8.0,deadpool 3,chocolate milk,Friends,2.0,Shawarma
+631716,4,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,21 Jump Street,Water,"Parents,Friends",2.0,Shawarma
+611932,2,5.0,"Week day lunch,Week day dinner,Weekend lunch",10.0,Not sure,Mango lassi,Strangers,-1.0,Shawarma
+619892,4,15.0,"Week day lunch,Weekend lunch",12.0,Chef,lemonade,Friends,3.0,Shawarma
+529289,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Slumdog Millionaire,Iced Tea,"Parents,Siblings,Friends,Strangers",2.0,Shawarma
+630738,3,10.0,"Week day dinner,Weekend dinner,At a party,Late night snack",10.0,none,water,"Parents,Friends,Strangers",-1.0,Shawarma
+524766,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",15.0,Avengers,Dairy,Siblings,1.0,Shawarma
+522148,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",9.0,bollywood,cola,Friends,1.0,Shawarma
+631046,3,7.0,Week day lunch,12.0,How to lose a guy in 10 days,Pepsi,"Parents,Friends,Strangers",3.0,Shawarma
+66222,5,10.0,"Week day lunch,Late night snack",10.0,Fast and Furious,Zero sugar coca cola,Strangers,3.0,Shawarma
+603182,3,15.0,"Week day lunch,Weekend lunch,Weekend dinner",15.0,,Soda,"Parents,Siblings,Friends",1.0,Shawarma
+630209,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,The Avengers,Coke,Parents,-1.0,Shawarma
+630128,1,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,The Avengers,Any soft drink,Friends,4.0,Shawarma
+387330,1,4.0,"Week day dinner,Weekend dinner,Late night snack",13.0,Rush Hour 3,Rice wine,"Parents,Siblings",1.0,Sushi
+746750,4,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,I don't know that many movies fr,water,"Parents,Siblings,Friends",-1.0,Sushi
+629285,4,4.0,Weekend dinner,11.0,scary movie,milk tea,Friends,-1.0,Sushi
+635179,5,5.0,"Week day dinner,Weekend dinner,Late night snack",13.0,John Wick,Water,"Parents,Siblings",-1.0,Sushi
+313562,4,6.0,"Week day lunch,Weekend lunch",25.0,fast and furious ,water ,"Parents,Siblings,Friends",1.0,Sushi
+635627,4,5.0,"Week day lunch,Week day dinner,Weekend dinner",15.0,Kung Fu Panda,Water,Strangers,-1.0,Sushi
+524485,2,6.0,"Week day lunch,Weekend lunch,At a party,Late night snack",40.0,Finding Nemo,Coke,Friends,-1.0,Sushi
+606905,5,5.0,Weekend dinner,20.99,rush hour,misso soup,"Parents,Friends",-1.0,Sushi
+393424,5,5.0,"Week day dinner,Weekend dinner",10.0,Rush Hour 2,Sake,Strangers,1.0,Sushi
+628558,2,5.0,"Weekend lunch,Weekend dinner,At a party",25.0,"Isle of Dogs, this film =showcases a chef making a poisoned sushi.",miso soup,"Parents,Siblings",-1.0,Sushi
+628093,5,6.0,Weekend lunch,30.0,Cars 2.,Water,"Parents,Siblings,Friends",2.0,Sushi
+411781,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",11.0,"Crazy, stupid, love",Coke Zero,Friends,1.0,Sushi
+525567,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",10.0,Crazy Rich Asians,Water,Friends,1.0,Sushi
+634455,4,3.0,"Weekend dinner,Late night snack",8.0,,Soju,Friends,2.0,Sushi
+498848,3,8.0,"Weekend lunch,Weekend dinner",12.0,Kill Bill,Sake,"Friends,Strangers",-1.0,Sushi
+638838,5,7.0,At a party,25.0,Big Hero 6,Water,Strangers,-1.0,Sushi
+411253,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,Tokyo Drift,sprite,"Parents,Siblings,Friends",-1.0,Sushi
+410165,5,7.0,"Week day dinner,Weekend dinner",25.0,ratatouille,water,Strangers,-1.0,Sushi
+608554,5,4.0,"Week day dinner,Weekend dinner",20.0,Breaking Bad,Water,Friends,-1.0,Sushi
+602394,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Monsters Inc,Water,"Siblings,Friends",-1.0,Sushi
+519570,5,5.0,"Weekend lunch,Weekend dinner",20.0,House MD,Water,Parents,-1.0,Sushi
+744484,4,8.0,"Week day lunch,Weekend lunch,At a party,Late night snack",10.0,Jiro Dreams of Sushi,Water,"Teachers,Strangers",1.0,Sushi
+508149,4,5.0,"Week day lunch,Week day dinner,Weekend dinner",24.0,The Fast and the Furious: Tokyo Drift,Green Tea,"Parents,Friends",-1.0,Sushi
+524992,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.0,Crazy Rich Asians,water,"Parents,Siblings,Friends",-1.0,Sushi
+413570,2,5.0,"Week day lunch,Weekend lunch,At a party",5.0,Shark Tale,Green tea,"Friends,Teachers,Strangers",2.0,Sushi
+306207,2,6.5,"Week day lunch,Weekend lunch,Late night snack",6.0,Who am I? (Jackie Chan),Water,Friends,1.0,Sushi
+634468,4,4.5,"Week day dinner,Weekend dinner",20.0,Cars 2,Tea,"Parents,Siblings,Friends",1.0,Sushi
+522205,5,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Cars,Green Tea,"Parents,Siblings,Friends",-1.0,Sushi
+631198,4,5.0,"Weekend lunch,Weekend dinner,At a party",12.0,Your Name,water,"Parents,Friends,Strangers",3.0,Sushi
+313577,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,the big short,coke,"Parents,Siblings",4.0,Sushi
+629700,2,3.0,"Weekend lunch,Weekend dinner",15.0,Big Hero 6,Water,Friends,-1.0,Sushi
+630928,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",13.0,Kodoku No Gurume,Barley tea,Parents,-1.0,Sushi
+607286,3,10.0,"Weekend lunch,Weekend dinner",15.0,Godzilla,Milk,"Friends,Strangers",2.0,Sushi
+607609,4,3.0,"Week day dinner,Weekend dinner",14.0,Bullet Train,Sake,"Parents,Strangers",-1.0,Sushi
+630227,4,3.0,Weekend dinner,30.0,Your Name,Water,Strangers,1.0,Sushi
+603607,4,2.0,"Week day lunch,Weekend lunch,Late night snack",10.0,Memoirs of a Geisha,Water,Friends,-1.0,Sushi
+617029,2,4.0,"Week day dinner,Weekend dinner,Late night snack",10.0,G.I. Joe,Sparkling water,"Parents,Friends,Strangers",-1.0,Sushi
+617462,2,5.0,Weekend dinner,20.0,OldBoy,Sake,Parents,-1.0,Sushi
+633001,4,4.0,"Week day lunch,Weekend lunch,At a party",10.0,"Monsters, Inc.",Water,Friends,-1.0,Sushi
+634690,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",18.0,Monsters Inc.,Water,Siblings,-1.0,Sushi
+630198,4,5.0,"Week day lunch,Weekend dinner",15.0,inception,water,"Parents,Siblings",-1.0,Sushi
+520507,2,4.0,"Week day dinner,Weekend dinner,Late night snack",4.5,,Water,"Friends,Strangers",-1.0,Sushi
+635065,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Penguins of madagascar,Beer,"Siblings,Friends",1.0,Sushi
+605452,5,5.0,"Week day lunch,Weekend lunch",25.0,Jiro Dreams of Sushi,Sake,Friends,1.0,Sushi
+24137,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",25.0,japanese movie,water,Friends,-1.0,Sushi
+518809,1,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",6.0,none,coke,Parents,-1.0,Sushi
+634646,4,5.0,"Week day dinner,Weekend dinner,At a party,Late night snack",10.0,Monsters Inc,water,"Friends,Strangers",1.0,Sushi
+508156,3,5.5,"Week day dinner,Weekend dinner",10.0,Crazy rich asians,Water,"Siblings,Friends",2.0,Sushi
+632909,4,4.0,"Week day dinner,Weekend dinner",20.0,John Wick,green tea,"Parents,Siblings,Friends",-1.0,Sushi
+411810,2,3.0,"Weekend lunch,Weekend dinner",30.0,Tokyo drift,Water,"Parents,Siblings",-1.0,Sushi
+214145,1,10.0,"Weekend lunch,At a party",10.0,shrek3,powerade,Teachers,3.0,Sushi
+628986,2,5.0,Late night snack,12.79,Aquaman,Soda,"Friends,Strangers",2.0,Sushi
+211158,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",8.0,,miso soup,Friends,-1.0,Sushi
+522877,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Barbie (2021),Water,"Siblings,Friends,Strangers",1.0,Sushi
+519822,4,5.0,"Week day lunch,Week day dinner",15.0,Madagascar,Water,"Siblings,Friends",3.0,Sushi
+600849,5,5.0,"Week day lunch,Weekend lunch,Weekend dinner",5.0,Rush Hour,Water,"Siblings,Friends",-1.0,Sushi
+716142,5,5.0,Week day lunch,10.0,Kill Bill,Green Tea,"Parents,Siblings",3.0,Sushi
+835124,5,4.0,"Week day lunch,Weekend lunch,Weekend dinner",10.0,Pokemon,Green Tea,"Parents,Friends",-1.0,Sushi
+634764,4,5.0,"Week day lunch,Late night snack",15.0,9,Water,Friends,1.0,Sushi
+629156,1,4.0,"Week day lunch,Weekend dinner,Late night snack",15.0,Jiro Dreams of Sushi,Green tea,Parents,-1.0,Sushi
+498563,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",6.5,Wags,Green tea,"Parents,Siblings",-1.0,Sushi
+526497,4,6.0,"Week day lunch,Week day dinner,At a party",8.0,Notting Hill,Mango Juice,"Friends,Strangers",2.0,Sushi
+97339,3,5.0,"Week day dinner,Weekend dinner",3.0,The Wolverine,Water,"Siblings,Friends",-1.0,Sushi
+631909,4,4.0,"Week day dinner,Weekend dinner",5.0,Rush Hour 2,Green Tea,"Parents,Siblings,Friends",2.0,Sushi
+625349,3,5.0,"Week day dinner,Weekend dinner,Late night snack",14.0,Made in Abyss: Dawn of the Deep Soul,Bubble Milk Tea,Friends,-1.0,Sushi
+616634,1,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",7.0,The Wolverine,Water,"Parents,Siblings,Friends",-1.0,Sushi
+616836,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Kung Fu Panda,Diet Coke,"Siblings,Strangers",-1.0,Sushi
+609116,4,5.0,"Week day dinner,Weekend dinner,At a party",10.0,Your Name,tea,Friends,1.0,Sushi
+626789,3,5.0,"Week day lunch,Weekend lunch",14.0,,diet coke,Friends,-1.0,Sushi
+632684,5,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Cars,Coca Cola,"Friends,Strangers",-1.0,Sushi
+522967,4,5.0,"Week day lunch,Weekend lunch,Weekend dinner",35.0,the last samurai,water,"Parents,Siblings,Friends",-1.0,Sushi
+632893,4,4.0,Weekend dinner,20.0,ShangChi,Water,"Parents,Siblings,Friends",-1.0,Sushi
+626754,5,3.0,"Week day dinner,Weekend lunch,Weekend dinner",15.0,Bullet Train,Water,Friends,-1.0,Sushi
+631583,5,4.0,"Week day dinner,Weekend dinner,At a party,Late night snack",8.0,"**************
+Johnny English
+**************",ALCOHOLIC SAKE,"Friends,Teachers",-1.0,Sushi
+718026,5,4.0,"Week day dinner,Weekend dinner",20.0,tokyo drift,pepsi,"Parents,Friends",-1.0,Sushi
+616713,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",25.0,Billions - TV Show,Sake,"Parents,Siblings,Friends",-1.0,Sushi
+602533,2,4.0,"Week day lunch,Week day dinner,Weekend dinner",10.0,Rush Hour,Water,Parents,-1.0,Sushi
+631496,3,4.5,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,The Fast and the Furious: Tokyo Drift,Water,Friends,1.0,Sushi
+632051,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",20.0,Godzilla,Bubble Tea,"Parents,Siblings,Friends,Teachers,Strangers",1.0,Sushi
+632975,3,5.0,"Week day lunch,Weekend lunch,At a party",15.0,No movie,Water,"Friends,Teachers",3.0,Sushi
+407221,4,3.0,"Week day dinner,Weekend dinner",15.0,"Monsters, Inc.",Pepsi,Friends,1.0,Sushi
+204508,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,ip man,tea,"Parents,Siblings,Friends",-1.0,Sushi
+618700,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",5.0,John Wick: Chapter 4,tea,"Parents,Siblings,Friends",-1.0,Sushi
+712054,3,3.0,"Weekend dinner,At a party,Late night snack",20.0,Star Wars,Barley Tea,"Siblings,Friends",1.0,Sushi
+604132,2,2.0,"Week day dinner,Weekend dinner",12.0,Anime,Water,"Parents,Siblings",-1.0,Sushi
+629807,4,6.0,"Week day lunch,Week day dinner,Weekend lunch",20.0,Rush hour,water,Friends,2.0,Sushi
+741428,4,6.0,"Weekend dinner,At a party",13.0,,,Parents,-1.0,Sushi
+633024,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,At a party,Late night snack",12.0,N.A. (I only watched a few movies so I cannot think of any movie related to Sushi),water,Friends,1.0,Sushi
+601983,3,5.0,"Week day dinner,Weekend dinner,At a party",13.0,Django Unchained,Tea,"Parents,Siblings,Friends",1.0,Sushi
+629221,4,6.0,"Week day dinner,Weekend dinner,At a party",17.0,Big Hero 6,Water,Parents,-1.0,Sushi
+634705,3,5.0,Week day dinner,12.0,Shang-Chi and the Legend of the Ten Rings,Water,"Friends,Strangers",2.0,Sushi
+630070,4,15.0,"Week day dinner,Weekend dinner,Late night snack",15.0,Karate kid II,No Drink,"Parents,Friends,Strangers",-1.0,Sushi
+630006,5,10.0,"Week day lunch,Weekend lunch,At a party",15.0,Crazy Rich Asians,Mango Pulp,"Siblings,Friends",1.0,Sushi
+629072,4,5.0,"Weekend lunch,Weekend dinner,At a party",20.0,Rush Hour,Soup,Parents,-1.0,Sushi
+626026,2,4.0,"Week day dinner,Weekend dinner,At a party,Late night snack",8.0,7 samurai.,Water.,"Parents,Siblings,Friends,Teachers",-1.0,Sushi
+630948,5,3.0,"Week day dinner,Weekend dinner",12.0,Finding Nemo,water,Strangers,-1.0,Sushi
+626778,5,6.0,"Week day dinner,Weekend dinner",15.0,Cars 2,Coke Zero,"Parents,Siblings,Friends",-1.0,Sushi
+631181,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",17.0,Rush hour,water,Parents,-1.0,Sushi
+633541,2,4.5,Weekend dinner,20.0,Casablanca,Water,"Parents,Friends",1.0,Sushi
+633097,2,5.0,"Week day lunch,Week day dinner",6.0,Train to Busan,Sake,"Parents,Friends",1.0,Sushi
+629869,4,5.0,Weekend dinner,20.0,shogun,diet brisk,Siblings,1.0,Sushi
+600915,3,7.0,At a party,20.0,Kung Fu Panda,Water,Strangers,-1.0,Sushi
+525420,2,3.0,"Week day lunch,Late night snack",8.0,My neighbor Totoro,Ramune,"Friends,Strangers",-1.0,Sushi
+629985,4,4.0,"Week day dinner,Weekend dinner",10.0,The Room,Water,Strangers,3.0,Sushi
+523128,5,6.0,"Week day dinner,Weekend dinner",20.0,Fallen Angels,Sake,"Siblings,Friends",-1.0,Sushi
+616457,2,2.0,"Weekend lunch,Weekend dinner,At a party",20.0,isle of dogs,sake,"Parents,Siblings",-1.0,Sushi
+419835,5,6.0,"Week day dinner,Weekend dinner",14.0,Big Hero 6,Water,Friends,-1.0,Sushi
+543739,1,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Monsters Inc,Water,Friends,-1.0,Sushi
+410380,3,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,John Wick,Sake,"Parents,Friends,Strangers",-1.0,Sushi
+385307,2,2.0,"Week day lunch,Weekend dinner,At a party",15.0,John Wick ,soup ,Parents,-1.0,Sushi
+634566,5,5.0,"Week day dinner,Weekend dinner",20.0,Shanghai Noon,Sake ,"Parents,Friends",2.0,Sushi
+625818,4,4.0,Weekend dinner,15.0,Big Hero 6,Water,Siblings,1.0,Sushi
+603130,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",12.0,Finding Nemo,Yakult,"Parents,Friends",-1.0,Sushi
+229211,4,3.0,"Week day dinner,Weekend dinner,At a party",16.0,One Piece,Miso soup,"Parents,Siblings,Friends",-1.0,Sushi
+626849,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",6.0,Turning Red,Water,"Siblings,Friends",1.0,Sushi
+634650,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",15.0,Madagascar,Water,"Parents,Siblings,Friends",-1.0,Sushi
+632125,4,4.0,"Week day dinner,Weekend dinner",10.0,Turning Red,Water,"Friends,Strangers",-1.0,Sushi
+626812,1,2.5,"Week day lunch,Weekend lunch,At a party",20.0,no movie,water,Parents,-1.0,Sushi
+628102,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,Fast & Furious: Tokyo Drift,Water,Parents,-1.0,Sushi
+517774,1,2.0,"Weekend dinner,Late night snack",12.0,Spirited Away,sprite,Teachers,-1.0,Sushi
+603189,3,3.0,"Week day lunch,Week day dinner,Weekend dinner",10.0,lost in translation,water,Friends,-1.0,Sushi
+523080,3,4.0,"Week day lunch,Week day dinner,Late night snack",9.99,home alone,water,"Siblings,Strangers",-1.0,Sushi
+631014,2,4.0,"Week day dinner,Weekend dinner",12.0,The Last Samurai,Coca Cola,Teachers,1.0,Sushi
+503957,4,3.0,"Week day lunch,Week day dinner,Weekend dinner",18.0,John Wick,Saporo,Friends,-1.0,Sushi
+524890,4,6.0,"Week day dinner,Weekend dinner",25.0,Home Alone 2,Sake,"Siblings,Friends,Strangers",2.0,Sushi
+717411,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Japanese movie,iced tea,"Parents,Friends,Teachers,Strangers",1.0,Sushi
+525311,4,5.0,"Week day lunch,Weekend lunch,Weekend dinner,At a party",10.0,Godzilla,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+630967,5,7.0,"Week day dinner,Weekend dinner",25.0,Hunger,Water,Friends,-1.0,Sushi
+604969,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Cars 2,Sparkling water,"Parents,Siblings,Friends,Strangers",-1.0,Sushi
+524480,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Spirited Away,Water,Friends,-1.0,Sushi
+634977,4,4.0,"Week day lunch,Weekend lunch",7.0,Mulan,water,"Friends,Strangers",-1.0,Sushi
+630823,5,7.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",14.0,The Intern,Coke,"Parents,Friends",-1.0,Sushi
+504548,1,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",10.0,The Meg (2018),Soy Sauce,"Parents,Siblings,Strangers",-1.0,Sushi
+523461,4,5.0,"Week day lunch,Weekend lunch,At a party,Late night snack",6.0,Rush Hour 2,Sake,Friends,2.0,Sushi
+312640,2,23.5,"Week day dinner,Weekend lunch,Weekend dinner",16.0,Rush Hour series ,Yuzu the alcoholic drink,"Parents,Siblings",-1.0,Sushi
+854745,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",12.0,Doraemon,Tea,"Parents,Friends",-1.0,Sushi
+630416,4,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",9.0,"Ratatouille, because sushi needs to be sliced and they slice food in Ratatouille.",Water ,"Friends,Strangers",4.0,Sushi
+505458,2,2.0,"Week day dinner,Weekend dinner,At a party,Late night snack",3.0,Japanese,Tea,"Siblings,Friends",-1.0,Sushi
+603612,3,2.0,"Week day dinner,Weekend lunch,Weekend dinner",25.0,Finding Nemo,Sake,"Parents,Strangers",-1.0,Sushi
+712252,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",7.0,Memoirs of a Geisha,Water,Friends,-1.0,Sushi
+742226,2,7.5,"Week day lunch,Weekend lunch,At a party,Late night snack",20.0,Howl's Moving Castle,Alcohol,"Friends,Strangers",4.0,Sushi
+712771,2,3.0,"Week day dinner,Weekend dinner",20.0,Memory of a Geisha,Hot tea,Siblings,-1.0,Sushi
+746466,5,4.0,"Week day dinner,Weekend lunch,Weekend dinner",13.0,Your Name,Green Tea,Parents,-1.0,Sushi
+631902,4,4.0,"Week day lunch,Weekend lunch,Weekend dinner,Late night snack",20.0,Shark Tale,Water,"Parents,Siblings",1.0,Sushi
+519986,2,4.0,"Week day lunch,Week day dinner,Weekend dinner",18.0,ratatouille,water,"Friends,Strangers",-1.0,Sushi
+407257,5,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",25.0,Rush Hour,Cocktail,"Parents,Friends,Strangers",-1.0,Sushi
+626883,3,4.0,"Week day lunch,Weekend lunch",15.0,Howl's Moving Castle,Water,"Friends,Strangers",-1.0,Sushi
+634885,3,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",8.0,Spirited Away,Tea,"Parents,Siblings",-1.0,Sushi
+619932,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Some Ghibli movie,Tea,"Parents,Siblings",-1.0,Sushi
+601986,2,4.0,Late night snack,11.02,Alita:the warrior,rice tea,Strangers,4.0,Sushi
+631141,2,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Monsters Inc.,Jasmine tea,"Parents,Siblings,Friends",-1.0,Sushi
+631069,3,8.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,monsters Inc,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+634508,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",8.0,The karate kid,Soju,"Parents,Strangers",2.0,Sushi
+206744,2,9.0,Weekend dinner,7.0,John Wick: Chapter 3 - Parabellum,water,"Siblings,Friends",-1.0,Sushi
+629659,2,3.0,"Week day lunch,Weekend lunch,At a party",1.0,Oppenheimer ,Sake,Friends,3.0,Sushi
+630190,4,2.0,Weekend lunch,30.0,I don't think of any movies. I think of anime.,Water.,Parents,-1.0,Sushi
+401586,4,5.0,"Week day dinner,Weekend dinner,At a party",10.0,The Spy Next Door,tea,Parents,-1.0,Sushi
+629263,3,5.0,"Week day lunch,Weekend lunch,Weekend dinner",10.0,Rush hour,Lemonade,Friends,2.0,Sushi
+631678,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",4.0,Into the Spiderverse,Tea,Friends,-1.0,Sushi
+411681,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",20.0,Godzilla,Water,"Friends,Strangers",-1.0,Sushi
+630378,3,6.0,"Week day lunch,Weekend dinner,At a party,Late night snack",10.0,Rush Hour,Iced Tea,Friends,2.0,Sushi
+604991,5,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",25.0,Monsters Inc.,Water,"Friends,Strangers",-1.0,Sushi
+629723,5,3.0,"Week day dinner,Weekend dinner",20.0,Heretic,Baijiu,Friends,-1.0,Sushi
+387522,4,3.0,"Weekend lunch,Weekend dinner",30.0,Crayon Shinchan,Green Tea,"Parents,Siblings,Friends",-1.0,Sushi
+613484,5,5.0,"Weekend dinner,At a party",6.0,Aquaman,Ice tea,Parents,3.0,Sushi
+494373,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",6.0,Bullet train,"Barley tea
+----------",Friends,-1.0,Sushi
+605537,1,2.0,Week day dinner,0.5,Ratatouille,soft drink,Friends,-1.0,Sushi
+624443,4,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Kill Bill,Tea,Friends,-1.0,Sushi
+526064,4,5.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",1.0,Spirited Away,Water,Friends,-1.0,Sushi
+609179,2,5.0,Weekend dinner,20.0,Tokyo Drift,milk,Strangers,2.0,Sushi
+411117,5,7.0,"Week day dinner,Weekend dinner",7.5,Monsters Inc.,Water,"Parents,Siblings,Friends",-1.0,Sushi
+634430,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",2.0,Tokyo Drift,Juice,Friends,-1.0,Sushi
+631711,3,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",1.0,Turning Red,Root beer,Strangers,3.0,Sushi
+633712,5,4.0,"Week day dinner,Weekend dinner",10.0,Isle of Dogs,Water,Friends,-1.0,Sushi
+520090,4,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",12.0,Spirited Away,Green Tea,Parents,-1.0,Sushi
+741592,2,3.0,"Week day lunch,Weekend lunch,At a party",1.49,Your Name,Water,Strangers,-1.0,Sushi
+628547,5,5.0,"Week day lunch,Week day dinner,Weekend lunch,Late night snack",20.0,Monsters Inc,Tea,"Siblings,Friends,Strangers",1.0,Sushi
+501513,2,2.0,"Week day dinner,Weekend dinner,At a party",10.0,Midnight dinner,Soju,"Parents,Friends",1.0,Sushi
+630929,4,8.0,"Weekend dinner,At a party",5.0,spirited away,tea,"Parents,Siblings",-1.0,Sushi
+617379,5,4.0,"Week day dinner,Weekend lunch,Weekend dinner",10.0,Kung fu panda,Mango juice,"Parents,Siblings",1.0,Sushi
+617310,3,6.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.99,Karate Kid,Water,Friends,-1.0,Sushi
+495424,2,3.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",15.0,Kill Bill,Sake,Parents,-1.0,Sushi
+622787,5,3.0,"Week day dinner,Weekend dinner",13.0,madagascar,tea,"Parents,Friends,Strangers",1.0,Sushi
+631716,5,6.0,Weekend dinner,40.0,Penguins of Madagascar,Green Tea,"Parents,Siblings",-1.0,Sushi
+620745,5,10.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,Late night snack",10.0,Monsters Inc.,Water,Friends,-1.0,Sushi
+611932,2,4.0,"Weekend lunch,Weekend dinner",12.0,John Wick 3,Water,"Parents,Strangers",-1.0,Sushi
+619892,5,8.0,"Week day lunch,Weekend lunch,Late night snack",15.0,"Monsters, Inc.",Pepsi,"Parents,Siblings,Friends,Strangers",2.0,Sushi
+529289,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party",25.0,Kill Bill,Iced Tea,"Parents,Siblings,Friends,Strangers",-1.0,Sushi
+630738,3,10.0,"Week day lunch,Weekend lunch,Weekend dinner,At a party",13.0,none,miso soup,"Parents,Siblings,Friends,Strangers",-1.0,Sushi
+524766,2,2.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner",10.0,Idk,Water or soup,"Parents,Siblings,Friends",-1.0,Sushi
+522148,1,4.0,"Week day dinner,Weekend dinner,At a party",10.0,pokemon,rice wine,Strangers,-1.0,Sushi
+631046,2,3.0,"Week day dinner,Weekend dinner",30.0,Tokyo Drift,Tea,"Parents,Siblings,Friends",-1.0,Sushi
+66222,5,7.0,Week day dinner,20.0,Tokyo drift,Zero sugar coca cola,Parents,-1.0,Sushi
+630209,4,4.0,"Week day lunch,Week day dinner,Weekend lunch,Weekend dinner,At a party,Late night snack",11.0,Kiki’s Delivery Service,Ginger tea,"Parents,Siblings,Friends",-1.0,Sushi

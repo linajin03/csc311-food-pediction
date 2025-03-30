@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier, export_graphviz
 from sklearn.metrics import accuracy_score
 import graphviz
 
-path_to_data = "../data/cleaned_data.csv"
+path_to_data = "../data/final_processed_dt.csv"
 
 # Load the cleaned dataset
 data = pd.read_csv(path_to_data)
