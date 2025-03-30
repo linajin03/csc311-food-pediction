@@ -1,36 +1,58 @@
 import numpy as np
 from sklearn.metrics import classification_report, f1_score, accuracy_score
-from models.neuralnetwork import feature_columns
+from models.neuralnetwork import feature_columns  # This list should match the NN cleaned file
+
 
 # === Naive Bayes ===
-
 def evaluate_naive_bayes():
     import csv
-    from models.naive_bayes_model import make_bow, naive_bayes_map, make_prediction
+    from models.naive_bayes_model import naive_bayes_map, make_prediction
 
-    with open("../data/worded_data.csv") as f:
-        data_list = list(csv.reader(f))[1:]
-    np.random.seed(42)
-    np.random.shuffle(data_list)
+    # Use the NB branch processed file (e.g. bow_processed_nb.csv)
+    with open("../data/bow_processed_nb.csv") as f:
+        reader = csv.DictReader(f)
+        data_list = list(reader)
 
-    # Build vocab
+    # Build vocabulary from the combined_text field
     vocab_set = set()
     for row in data_list:
-        words = [word for sublist in row[1:9] for word in sublist.split(",")]
+        text = row["combined_text"]
+        words = text.split()  # simple split; use a better tokenizer if desired
         vocab_set.update(words)
     vocab = list(vocab_set)
 
-    # Make BoW
-    X_train, t_train = make_bow(data_list[:820], vocab)
-    X_test, t_test = make_bow(data_list[820:], vocab)
+    # Function to build a bag-of-words representation for NB
+    def make_bow_nb(data_list, vocab):
+        N = len(data_list)
+        V = len(vocab)
+        X = np.zeros((N, V))
+        t = np.zeros(N)
+        vocab_dict = {word: idx for idx, word in enumerate(vocab)}
+        for i, row in enumerate(data_list):
+            review = row["combined_text"].split()
+            for word in review:
+                if word in vocab_dict:
+                    X[i, vocab_dict[word]] = 1
+            # Map labels (assuming they are stored as strings "Pizza", "Shawarma", "Sushi")
+            label = row["Label"]
+            if label == "Pizza":
+                t[i] = 0
+            elif label == "Shawarma":
+                t[i] = 1
+            elif label == "Sushi":
+                t[i] = 2
+        return X, t
 
-    # Train and predict
+    X_train, t_train = make_bow_nb(data_list[:820], vocab)
+    X_test, t_test = make_bow_nb(data_list[820:], vocab)
+
     pi0, pi1, pi2, theta = naive_bayes_map(X_train, t_train)
     y_pred = make_prediction(X_test, pi0, pi1, pi2, theta)
 
     print("\n=== Naive Bayes ===")
     print(classification_report(t_test, y_pred, digits=3))
     return "Naive Bayes", accuracy_score(t_test, y_pred), f1_score(t_test, y_pred, average="macro")
+
 
 # === Decision Tree ===
 def evaluate_decision_tree():
@@ -50,43 +72,45 @@ def evaluate_decision_tree():
     print(classification_report(y_test, y_pred, digits=3))
     return "Decision Tree", accuracy_score(y_test, y_pred), f1_score(y_test, y_pred, average="macro")
 
-# === Neural Network ===
-
-
 def evaluate_neural_network():
     from models.neuralnetwork import FoodNeuralNetwork, train_sgd, train_test_split
     import pandas as pd
+    from sklearn.metrics import classification_report, accuracy_score, f1_score
 
-    df = pd.read_csv("../data/final_processed.csv")
-
-    # Step 1: Ensure Label column is numeric
-    df["Label"] = pd.to_numeric(df["Label"], errors="coerce")
-
-    # Step 2: Drop rows where label is NaN
-    df = df.dropna(subset=["Label"])
+    df = pd.read_csv("../data/final_processed_nn.csv")
+    # Suppose your CSV's label is "Label" with string classes (Pizza, Shawarma, Sushi).
+    label_map = {"Pizza": 0, "Shawarma": 1, "Sushi": 2}
+    df["Label"] = df["Label"].map(label_map)
+    df = df.dropna(subset=["Label"])  # remove any rows missing label
     df["Label"] = df["Label"].astype(int)
 
-    # Step 3: Drop any remaining NaNs in feature columns (if any)
+    # Make sure we have all feature columns:
+    # remove rows that have NaN in any feature column
     df = df.dropna(subset=feature_columns)
 
-    # Step 4: Load features and labels
-    X = df[feature_columns].astype(int).values
+    # Instead of forcing int, just do:
+    X = df[feature_columns].values  # remain float if Q2/Q4 were normalized
     y = df["Label"].values
 
-    # Step 5: Split
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.4, random_state=42
     )
-
-    # Step 6: Train and evaluate
     model = FoodNeuralNetwork(num_features=X.shape[1], num_hidden=100, num_classes=3)
-    train_sgd(model, X_train, y_train, alpha=0.1, n_epochs=200, batch_size=128, X_valid=X_test, t_valid=y_test, plot=False)
-
+    train_sgd(
+        model, X_train, y_train,
+        alpha=0.1, n_epochs=200, batch_size=128,
+        X_valid=X_test, t_valid=y_test,
+        plot=False
+    )
     y_pred = model.forward(X_test).argmax(axis=1)
 
     print("\n=== Neural Network ===")
     print(classification_report(y_test, y_pred, digits=3))
-    return "Neural Network", accuracy_score(y_test, y_pred), f1_score(y_test, y_pred, average="macro")
+    acc = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred, average="macro")
+    print(f"Accuracy: {acc:.3f}, Macro-F1: {f1:.3f}")
+    return "Neural Network", acc, f1
+
 
 # === Run All Models ===
 if __name__ == "__main__":
